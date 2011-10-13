@@ -1,0 +1,56 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fullpage}
+%\topmargin -2cm%
+\textheight 24cm
+\setlength\parindent{0pt}
+\thispagestyle{empty}
+\begin{document}
+\begin{flushleft}
+Číslo cvičení: 1 \\ 
+Jméno: Marek Bryša \\
+UČO: 323771\\
+Login: xbrysa1\\
+\end{flushleft}
+\begin{enumerate}
+\item $h(C)=4$, $s(C)=3$, $t(C)=1$.\\C is equivalent to code $D=\{0000000,1111000,1100111,001111\}.$ (The last bit of all codewords is negated.)
+\item Let the first codeword WLOG be $00000$. The other codewords must differ in at least 4 bits, therefore can be from $A=\{01111,10111,11011,11101,11110,11111\}$.\\$max\{h(x,y)| x,y\in A\}=2\implies$ the third codeword can only have a distance of 2 from the first two $\implies$ a binary $(5,3,4)$ code does not exist.
+\item
+\item The code is defined by the following table.
+  \begin{center}
+  \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    A&B&C&D&E\\\hline
+    1&2&3&44&43\\\hline
+  \end{tabular}
+  \end{center}
+  The second symbol for the D and E characters could be chosen. It is probably better to choose the symbols that are statistically least used in the rest of the code.
+\item For any codeword of length $n-1$, there is exactly 1 symbol that can be put on the last position so that the resulting codeword of length $n$ is in $C$ $\implies M=q^{(n-1)}$. Because of that, if one symbol is changed, another must also be changed. Such change can be always made $\implies  d=2$.
+\item
+  \begin{enumerate}
+  \item 8 distinc messages $\implies n\geq 3$. $n=3$ does not provide room for any error correction. For $n=4$, one additional bit is not enought to correct a shift of two bits. The following code provides the requested correction for $n=5$.
+  \begin{center}
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    Msg & unchanged & $p_l$ & $p_r$ \\\hline
+    A & 00000 &&\\
+    B & 11111 &&\\
+    C & 10000 & 00001 & 01000 \\
+    D & 11000 & 10001 & 01100 \\
+    E & 11100 & 11001 & 01110 \\
+    F & 11110 & 11101 & 01111 \\
+    G & 10100 & 01001 & 01010 \\
+    H & 10101 & 01011 & 11010 \\\hline    
+  \end{tabular}
+  \end{center}
+  The unchanged message is sent. The receiver decodes it using any of unchanged, $p_l$, $p_r$.
+  \item In a 4-bit code, there are 16 total codewords, 4 are symmetric and are always transmitted correctly. For the reamining $16-4=12$ we need two codewords for each message $\implies$ the total maximum is $4+(16-4)/2=10$.
+  \end{enumerate}
+\item Only (b) is a possible Huffman code. (a) is not a prefix code. (c),(d) unnecessarily add a trailing 0 to their last codeword.
+\item $x=9$, Cryptography: An Introduction.
+\end{enumerate}
+\end{document}
