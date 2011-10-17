@@ -87,7 +87,7 @@ Login: xbrysa1\\
           \end{pmatrix}
         \]
       \item
-        $C$ has $q^k=3^3=9$ codewords.
+        $C$ has $q^k=3^3=27$ codewords.
       \item
         $w(C)=2=h(C)<3\Rightarrow C$ cannot correct any errors.
         
@@ -95,7 +95,7 @@ Login: xbrysa1\\
 
   \item
     $R(1,m)$ is obtained by "adding" repetition codes to $R(1,1)$ like this: $R(1,1)+R(0,1)=R(1,2)$, $R(1,2)+R(0,2)=R(1,3), \dots$
-    Nuber of cosets generaly equals to $q^{n-k}$. $q=2, n=2^m$.
+    Nuber of cosets generaly equals to $q^{n-k}$. $q=2, n=2^m, k=1+\binom{m}{1}=1+m\Rightarrow$ number of cosets $=2^{2^m-m-1}$.
   \item
     \begin{enumerate}
       \item
@@ -104,6 +104,7 @@ Login: xbrysa1\\
         $n^i=n-1$.\\
         If the removed coordinate has a "twin" bit in the basis (i.e. all bits in a repetition code are "twins"), $k^i=k$.
         If the basis is like $G$ from 2. (a),$k^i=k-1$. No other options are possible, because removing one coordinate cannot decrease dimension by 2 or more.\\
+        For similar reasons $d^i=d$ or $d^i=d-1$.
         
     \end{enumerate}
 \end{enumerate}

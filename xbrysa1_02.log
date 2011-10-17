@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/Arch Linux) (format=pdflatex 2011.6.18)  15 OCT 2011 19:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.10.17)  17 OCT 2011 21:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,13 +8,14 @@ LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
 c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, farsi, finnish, french,
- galician, german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic
-, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panja
-bi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji, lao, lati
-n, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portu
-guese, romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedis
-h, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded.
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
@@ -390,35 +391,30 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 23.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 104--107
-
- []
-
-[1
+) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./xbrysa1_02.aux) ) 
 Here is how much of TeX's memory you used:
- 3013 strings out of 493772
- 36531 string characters out of 3150564
- 97887 words of memory out of 3000000
- 6309 multiletter control sequences out of 15000+200000
+ 3013 strings out of 493633
+ 36538 string characters out of 3148831
+ 98031 words of memory out of 3000000
+ 6316 multiletter control sequences out of 15000+200000
  5909 words of font info for 23 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
+ 831 hyphenation exceptions out of 8191
  27i,8n,32p,247b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/
 share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cs/c
-sr10.pfb>
-Output written on xbrysa1_02.pdf (1 page, 83297 bytes).
+/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csr10.pfb>
+Output written on xbrysa1_02.pdf (1 page, 91055 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
