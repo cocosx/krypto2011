@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.10.17)  17 OCT 2011 21:47
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/Arch Linux) (format=pdflatex 2011.5.23)  18 OCT 2011 20:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,18 +8,26 @@ LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
 c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
- icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
-iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
- lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
-ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
-ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
-.
-(/usr/share/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, farsi, finnish, french,
+ galician, german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic
+, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panja
+bi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji, lao, lati
+n, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portu
+guese, romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedis
+h, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded.
+(/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/extsizes/size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/usr/share/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2007/10/29 v2.1h Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+\big@size=\dimen102
 )
 \c@part=\count79
 \c@section=\count80
@@ -31,7 +39,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\bibindent=\dimen102
+\bibindent=\dimen103
 )
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
@@ -273,14 +281,14 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \lst@gtempboxa=\box26
 \lst@token=\toks17
 \lst@length=\count88
-\lst@currlwidth=\dimen103
+\lst@currlwidth=\dimen104
 \lst@column=\count89
 \lst@pos=\count90
-\lst@lostspace=\dimen104
-\lst@width=\dimen105
+\lst@lostspace=\dimen105
+\lst@width=\dimen106
 \lst@newlines=\count91
 \lst@lineno=\count92
-\lst@maxwidth=\dimen106
+\lst@maxwidth=\dimen107
 
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
@@ -304,11 +312,11 @@ Package: amstext 2000/06/29 v2.01
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
-\ex@=\dimen107
+\ex@=\dimen108
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen108
+\pmbraise@=\dimen109
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
@@ -325,7 +333,7 @@ LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
-\big@size=\dimen109
+\big@size=\dimen110
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \macc@depth=\count100
@@ -338,12 +346,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \column@=\count105
 \maxfields@=\count106
 \andhelp@=\toks20
-\eqnshift@=\dimen110
-\alignsep@=\dimen111
-\tagshift@=\dimen112
-\tagwidth@=\dimen113
-\totwidth@=\dimen114
-\lineht@=\dimen115
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
 \@envbody=\toks21
 \multlinegap=\skip44
 \multlinetaggap=\skip45
@@ -391,27 +399,35 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 23.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [1
+)
+Overfull \hbox (0.37729pt too wide) in paragraph at lines 67--71
+\IL2/cmr/m/n/9 All rows in $\OML/cmm/m/it/9 G[]$ \IL2/cmr/m/n/9 are lin-early i
+n-de-pen-dent, so $\OML/cmm/m/it/9 k \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 k[] \OT1/
+cmr/m/n/9 + \OML/cmm/m/it/9 k[]$\IL2/cmr/m/n/9 . Code-words gen-er-ated in the 
+form $\OML/cmm/m/it/9 x[] [] x[]\OT1/cmr/m/n/9 0 [] 0$
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./xbrysa1_02.aux) ) 
 Here is how much of TeX's memory you used:
- 3013 strings out of 493633
- 36538 string characters out of 3148831
- 98031 words of memory out of 3000000
- 6316 multiletter control sequences out of 15000+200000
- 5909 words of font info for 23 fonts, out of 3000000 for 9000
- 831 hyphenation exceptions out of 8191
- 27i,8n,32p,247b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 3059 strings out of 493772
+ 38821 string characters out of 3150564
+ 100058 words of memory out of 3000000
+ 6344 multiletter control sequences out of 15000+200000
+ 7957 words of font info for 30 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 27i,9n,32p,247b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csr10.pfb>
-Output written on xbrysa1_02.pdf (1 page, 91055 bytes).
+share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csr9.pfb>
+Output written on xbrysa1_02.pdf (1 page, 91373 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
