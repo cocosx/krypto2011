@@ -22,13 +22,19 @@ Login: xbrysa1\\
       \item
         ROSICRUCIAN CIPHER
       \item
-        POLIBIOUS SQUARE
+        POLYBIUS SQUARE
+      \item
+        Playfair cipher with keyword PLAYFAIR results WHEATSTONE.
     \end{enumerate}
   \item
     \begin{enumerate}
       \item 
         $|P|=|K|=|C|=26$ and for this system the theorem on p. 46 of the slides holds $\implies$ it is perfectly secure.
       \item
+        There are $26!$ different monoalphabetic subtitutions $\implies |P|\leq 26!$.
+        Let $P$ be all permutations of the word ab\dots z $\implies |P|=26!$.
+        For every $w\in P, c \in C$ there is exactly one $k\in K$ such that $e_k(w)=c$, because we do not repeat characters in any of $c,w,k$ and exhaust all permutations. 
+        If we choose all the keys with equal probabilities, the same theorem as in (a) holds $\implies$ the maximum cardinality is $26!$.
       \item
         If the length of the keyword is also $n$, all keywords are used with the same probability, then it is a one-time-pad cipher, which is perfectly secure.
     \end{enumerate}
@@ -38,13 +44,23 @@ Login: xbrysa1\\
     THE IDEALS WHICH HAVE LIGHTED MY WAY AND TIME AFTER TIME HAVE GIVEN ME NEW COURAGE TO FACE LIFE CHEERFULLY HAVE BEEN KINDNESS BEAUTY AND TRUTH THE TRITE SUBJECTS OF HUMAN EFFORTS POSSESSIONS OUTWARD SUCCESS LUXURY HAVE ALWAYS SEEMED TO ME CONTEMPTIBLE\\
     Affine cipher $a=11, b=3$. V and E are the most common in the cryptotext and were on first try transformed to E and T.
   \item
+    We get two equations:
+    \[
+      24\equiv 11a+4b+5 \mod{26}
+    \]
+    \[
+      15\equiv a+17b+9 \mod{26}
+    \]
+    There is one solution $a=24, b=15$, the plaintext is $\begin{pmatrix}24\\15\end{pmatrix}$.
   \item
+    $1423-91=1332, 1819-1423=39,\, \gcd(1332,396)=36 \implies$ possible key lengths are: 36,18,12,9,6,3,2,1.
   \item
     \begin{enumerate}
       \item
       \item
+        1984 Bible code, The Magic Words are Squeamish Ossifrage
       \item
-        securitythrouiobscurity
+        "securitythroughobscurity", however the cipher is highly ambiguous.
       \item
         The system must be practically, if not mathematically, indecipherable;\\
         It must not be required to be secret, and it must be able to fall into the hands of the enemy without inconvenience;\\

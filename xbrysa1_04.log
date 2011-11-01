@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.10.17)  31 OCT 2011 22:36
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.10.17)  1 NOV 2011 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -391,35 +391,45 @@ LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 \c@lstlisting=\count107
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [1
+)
+Overfull \hbox (21.11581pt too wide) in paragraph at lines 56--58
+[]$\OT1/cmr/m/n/10 1423 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 91 = 1332\OML/cmm/
+m/it/10 ; \OT1/cmr/m/n/10 1819 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1423 = 39\O
+ML/cmm/m/it/10 ;  []\OT1/cmr/m/n/10 (1332\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 396
+) = 36  =[]\OMS/cmsy/m/n/10 ) $ \IL2/cmr/m/n/10 pos-si-ble key lengths are: 36,
+18,12,9,6,3,2,1. 
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./xbrysa1_04.aux) ) 
 Here is how much of TeX's memory you used:
- 3045 strings out of 493633
- 38699 string characters out of 3148831
- 88223 words of memory out of 3000000
- 6344 multiletter control sequences out of 15000+200000
+ 3046 strings out of 493633
+ 38715 string characters out of 3148831
+ 90223 words of memory out of 3000000
+ 6345 multiletter control sequences out of 15000+200000
  5909 words of font info for 23 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 27i,4n,32p,283b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,32p,283b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csr10.pfb>
-Output written on xbrysa1_04.pdf (1 page, 49884 bytes).
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/share/texmf-dist/fonts/type1/public/cs/csr10.pfb>
+Output written on xbrysa1_04.pdf (1 page, 64963 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
