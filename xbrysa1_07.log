@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.10.17)  15 NOV 2011 22:48
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.10.17)  22 NOV 2011 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**xbrysa1_06.tex
-(./xbrysa1_06.tex
+**xbrysa1_07.tex
+(./xbrysa1_07.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
@@ -373,8 +373,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip46
-) (./xbrysa1_06.aux)
-\openout1 = `xbrysa1_06.aux'.
+) (./xbrysa1_07.aux)
+\openout1 = `xbrysa1_07.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -400,31 +400,26 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 21--29
+) [1
 
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./xbrysa1_06.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./xbrysa1_07.aux) ) 
 Here is how much of TeX's memory you used:
  3045 strings out of 493633
  38699 string characters out of 3148831
- 92223 words of memory out of 3000000
+ 90223 words of memory out of 3000000
  6344 multiletter control sequences out of 15000+200000
  5909 words of font info for 23 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  27i,4n,32p,226b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/cs/csr10.pfb>
-Output written on xbrysa1_06.pdf (1 page, 80771 bytes).
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/cs/csr10.pfb>
+Output written on xbrysa1_07.pdf (1 page, 80125 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream

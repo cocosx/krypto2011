@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{extarticle}
+\documentclass[a4paper,10pt]{extarticle}
 \usepackage[utf8]{inputenc}
 \usepackage[IL2]{fontenc}
 \usepackage{listings}
@@ -26,10 +26,17 @@ Login: xbrysa1\\
     $w_3=11k+1=13l+11 \implies w_1=89$\\
     $w_4=11k+10=13l+1 \implies w_1=76$\\
   \item
+    Because we know all the $w_i$, $gcd(|w_i-w_j|,n)=p$ or $q$.\\
+    $gcd(|1234-39593|,189209)=431\implies189209=431\cdot439\implies p=431,\,q=439$.\\
+    $v_1=85780^{((431+1)/4)} \mod 189209=28292$, $v_2=431-85780^{((431+1)/4)} \mod 189209=161348$,\\
+    $v_3=85780^{((439+1)/4)} \mod 189209=133509$, $v_4=439-85780^{((439+1)/4)} \mod 189209=56139$
   \item
-    The only $p> 7$ such that none of 3,5,7 are its quadratic residues is 17.\\
+    In $Z_{17}$ 3,5,7 are not quadratic residues.
     $15^{(17-1)/2}=15^8 = 21^8 = 35^8 = 1 \mod p$, $105^8=-1 \mod p\implies$\\
-    15,21,35 are quadratic residues, 105 is not.
+    15,21,35 are quadratic residues.\\
+    According to the theorem on p. 17 of the Appendix, 105 cannot be a quadratic residue.\\
+    $3=g^k$, $5=g^l$, $7=g^j$, $k,l,j$ are odd.
+    $105=3\cdot 5\cdot 7=g^{(k+l+j)}$, $(k+l+j)$ is odd.
   \item
     $y=q^x \mod p=137565$, $a=q^r \mod p=89804$, $b=y^r w \mod p = 7512\implies c=(89804,7512)$\\
     $w=b(a^x)^{-1} \mod p=7512\cdot 22233\mod p = 15131 $
