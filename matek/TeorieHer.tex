@@ -1,0 +1,157 @@
+\documentclass[12pt,a5paper]{article}
+\usepackage[cp1250]{inputenc}
+\usepackage{czech}
+\usepackage{amsmath,amssymb}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm, landscape]{geometry}
+
+\usepackage{array}
+\usepackage{multirow}
+%\usepackage{amsthm,array,multirow}
+\usepackage{graphicx}
+%\usepackage[center]{subfigure}
+
+\usepackage{paralist}
+%\usepackage{caption}
+\usepackage{verbatim} %multiline comments
+%\usepackage{fancyhdr}
+\usepackage{url}
+%\usepackage{setspace} %double space...
+%\usepackage{pdfpages} %inserting pdf
+
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+
+\begin{document}
+
+\section*{Úvod}
+Teorie her je matematická disciplína, která analyzuje široké spektrum konfliktních rozhodovacích situací, které mohou nastat kdekoliv, kde dochází ke støetu zájmù. Hernì-teoretické modely se pak snaží tyto konfliktní situace nejen analyzovat, ale sestavením matematického modelu daného konfliktu a pomocí výpoètù se snaží nalézt co nejlepší strategie pro konkrétní úèastníky takových konfliktù.
+
+\section{Reprezentace hry}
+Hra je charakterizována dvìma nebo více hráèi, množinami akcí (tahù), které tito hráèi mohou vykonat v urèitých okamžicích, a možnými zisky, kterých hráèi mohou dosáhnout. Zisk každého hráèe nezávisí pouze na jím vykonaných akcích, ale také na akcích ostatních hráèù. Formálnìji, existuje nìkolik odlišných herních reprezentací: \emph{normální forma} (neboli \emph{strategická forma}), \emph{extenzivní forma} èi \emph{kooperativní forma} (neboli \emph{forma charakteristické funkce}). Každé pøináší jiný popis hry, a slouží tak k~rùzným úèelùm. Hra v~extenzivní formì mùže být využita ke specifikaci hry v~normální formì a hra v~normální formì mùže být použita k~definici hry v~kooperativní formì, nikoliv však naopak.
+
+\subsection{Klasifikace her}
+Rozlišujeme statické a dynamické hry. U~statických her vykonávají hráèi své tahy souèasnì, pøípadnì neznají zvolené tahy protihráèù. U~dynamických her hráèi táhnou postupnì, a mohou tedy reagovat na pøedchozí tahy protihráèù. Podle toho, zda každý z~hráèù zná zisky všech hráèù ve všech možných výsledcích hry, rozlišujeme hry s~úplnými a neúplnými informacemi.
+   
+Na základì tohoto èlenìní klasifikujeme hry do ètyø skupin:
+\begin{compactitem}
+\item statické hry s úplnými informacemi,
+\item dynamické hry s úplnými informacemi,
+\item statické hry s neúplnými informacemi,
+\item dynamické hry s neúplnými informacemi.
+\end{compactitem}
+
+U~her s~neúplnými informacemi pracujeme s~pravdìpodobnostními rozdìleními, kterými se øídí zisky protihráèù. Zde se budeme zabývat hrami s~úplnými informacemi.
+ 
+\subsection{Statické hry a normální forma}
+\emph{Strategie} hráèe je kompletní plán akcí, který specifikuje, jaké tahy má hráè vykonat v~závislosti na dosavadním prùbìhu hry. V~pøípadì statických her pojmy akce a strategie splývají. 
+
+Ke specifikaci statických her s~úplnými informacemi slouží normální forma.
+
+%\fbox{
+%\parbox{.8\textwidth}{
+\emph{Hra v normální formì} obsahuje následující prvky:
+\begin{compactitem}
+\item množinu hráèù: $\{1,\dots , n\}$,
+\item množinu strategií $S_i$ pro každého hráèe $i \in \{1,\dots , n\}$,
+\item výplatní funkci $u_i : S_1 \times \dots \times S_n \rightarrow \mathbb{R}$ pro každého hráèe $i \in \{1,\dots , n\}$.
+\end{compactitem}
+%}}
+
+Hra dvou hráèù v normální formì je nejèastìji charakterizována pomocí \emph{dvojmatice}.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.35]{1_3.png}
+\caption{Hra v normální formì v podobì dvojmatice \label{bimatrix}}
+\end{figure}
+
+Normální forma mùže být použita i~k~popisu dynamických her. Je však tøeba specifikovat, kdy je který hráè na tahu, jaké akce mùže vykonat a jaké informace má o~dosavadním prùbìhu hry. Pojmy akce a strategie se u~dynamických her rozcházejí. Definujme nejprve extenzivní formu.
+
+\emph{Pøíklad:} Vìzòovo dilema
+
+\subsection{Extenzivní forma}
+Extenzivní forma reprezentace hry specifikuje:
+\begin{compactitem}
+\item množinu hráèù,
+\item kdy je který hráè na tahu,
+\item jaké má hráè informace o dosavadním prùbìhu hry ve chvíli, kdy je hráè na tahu,
+\item množinu akcí, které mùže hráè podstoupit,
+\item výplatní funkci každého hráèe jakožto funkci akcí podstoupených všemi hráèi. 
+\end{compactitem}
+
+Jako první popsali hru pomocí extenzivní formy von Neumann a Morgenstern (1944) a poté Kuhn (1953). V~obou pøípadech se jednalo o~koneèné hry, tj. hry, ve kterých je koneèný poèet hráèù, tahù i akcí. Pøíkladem takových her jsou napø. šachy nebo poker. Nicménì málokteré situace v ekonomice èi politice jsou modelovány koneènými hrami. 
+
+Hra v extenzivní formì je nejèastìji zobrazována pomocí stromu. Jednoduchý trh v~prostøedí duopolu je ilustrován Kuhnovým herním stromem. Jedná se o zjednodušený pøípad, kdy si každá ze dvou firem musí vybrat jednu ze tøí možných úrovní produkce. Firmy se rozhodují souèasnì. Jejich úrovnì produkce urèují tržní výstup a zisky obou firem. Na obrázku \ref{Kuhn} je popis této hry v extenzivní formì. Každý uzel reprezentuje stav, ve kterém se hra mùže nacházet (z~pohledu nezávislého pozorovatele). Hra zaèíná v~koøeni stromu (oznaèeným $R$). Každý uzel, který není listem, je oznaèen $P_i$, což indikuje, že je na tahu hráè $i$ a má na výbìr z~tahù odpovídajícím vìtvím stromu vycházejícím z~tohoto uzlu. Listy stromu jsou oznaèeny $O_j$ a reprezentují všechny možné výsledky hry. Každá cesta z~koøene do listu urèuje možný prùbìh hry.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.35]{1_1.png}
+\caption{Kuhnùv herní strom \label{Kuhn}}
+\end{figure}
+
+V~mnoha situacích mùžeme vyžadovat, aby hráèi táhli souèasnì (statické hry). Nezajímá nás, zda hráèi táhli pøesnì ve stejném okamžiku, podstatné je to, že hráèi v~okamžiku rozhodnutí o~svém tahu nemají informace o~tahu protihráèù. Nezáleží na tom, kdo táhne první, protože ostatní nejsou informováni. Tuto situaci znázoròujeme ve stromì tak, že propojíme (oválem èi èárkovanou èarou) všechny uzly, o~nichž hráè neví, ve kterém z~nich se nachází. Tyto uzly tvoøí tzv. \emph{informaèní množinu}. Ze všech uzlù jedné informaèní množiny musí vycházet stejné hrany. Extenzivní forma tedy umožòuje reprezentovat i statické hry. Obrázky \ref{bimatrix} a \ref{Kuhn} reprezentují tutéž hru v~normální a v~extenzivní formì.
+
+V~nìkterých pøípadech je tøeba do hry zahrnout exogenní nejistotu. V~takové situaci pøidáme do hry dalšího hráèe $P_0$, nazývaného \emph{Pøíroda}. Kdykoliv je tento hráè na tahu, s~danými pravdìpodobnostmi vybere jednu z vìtví. Pøíklad hry obsahující \emph{Pøírodu} je na obrázku \ref{nature}.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.35]{1_2.png}
+\caption{ Hra obsahující hráèe \emph{Pøíroda} \label{nature}}
+\end{figure}
+
+Hry, které obsahují pouze jednoprvkové informaèní množiny se nazývají hry s~\emph{perfektními informacemi}. Takovou hrou jsou šachy. V~každém okamžiku hry znají všichni hráèi všechny detaily cesty z~koøene do souèasného uzlu. To neplatí pro poker, èi pro aukce s~uzavøenými nabídkami.
+
+V~terminologii stromù a informaèních množin mùžeme \emph{strategii} definovat jako funkci, která každé informaèní množinì hráèe pøiøadí jednu z~alternativ (tj. hran) vycházejících z~této informaèní množiny. 
+
+\subsection{Dynamické hry a normální (strategická) forma}
+Dynamické hry je možné také reprezentovat v~normální formì. Nyní ovšem rozlišujeme pojmy akce a strategie. V~záhlavích tabulky (resp. dvojmatice) nyní již nebudou akce, ale kombinace akcí, pøesnìji strategie.
+
+Uvažujme modifikaci hry v~extenzivní formì na obrázku~\ref{Kuhn}. Nahraïme informaèní množinu hráèe $P_2$ dvìma informaèními množinami, a to tak, že pokud hráè $P_1$ zvolí možnost 1, $P_2$ je informován, zvolí-li $P_1$ možnost 2 nebo 3, $P_2$ neví, ve kterém z~tìchto dvou uzlù se nachází. Tato hra je v~normální formì reprezentována maticí $3 \times 9$, protože existuje 9 rùzných strategií pro $P_2$. Strategiemi hráèe $P_2$ jsou uspoøádané dvojice $(i,j)$, $i,j \in \{1,2,3\}$, které chápeme: \uv{jestliže $P_1$ hrál 1, hraj $i$, jinak hraj $j$}. 
+
+\subsection{Kooperativní (koalièní) forma}
+V~normální formì je kladen dùraz na jedince, a to v~tom smyslu, že zisk hráèe závisí na jím zvolené strategii a na strategiích zvolených ostatními hráèi. Není pøikládán význam možnostem spolupráce mezi hráèi. Pøi studiu tvorby kartelù, mezinárodního obchodu, vyjednávání nebo jiných skupinových jevù mùže být kladen dùraz na možné zisky ze spolupráce mezi jednotlivými úèastníky. 
+
+Uvažujme následující hru dvou hráèù v normální formì (jedná se o obecné vìzòovo dilema), $a_i > b_i > c_i > d_i$.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.35]{1_4.png}
+\caption{ Obecné vìzòovo dilema v~normální formì \label{prisoner}}
+\end{figure}
+
+%Mùžeme rozlišit dvì rùzné formy této hry, a to v~závislosti na tom, zda pøijmeme pøedpoklad o~pøenositelnosti užitku.
+
+Oznaème $\upsilon(S)$ zisk, kterého mùže dohromady dosáhnout koalice hráèù $S$, pokud hrají jako jeden hráè. $\upsilon$ nazýváme \emph{charakteristická funkce}. Je to funkce z~podmnožin všech hráèù do reálných èísel. Pro hru $n$ hráèù existuje $2^n-1$ neprázdných koalic.
+
+Oznaèení $\upsilon(\overline{ij})$ je použito ke specifikaci konkrétní koalice sestávající z~hráèù $i$ a $j$. Charakteristická funkce pro vìzòovo dilema na obrázku~\ref{prisoner} je následující:
+\begin{gather*}
+\upsilon(\emptyset)=0, \quad \upsilon(\overline{1})=c_1, \quad \upsilon(\overline{2})=c_2\\
+\upsilon(\overline{12})=\max \{ (b_1+b_2),(a_1+d_2),(a_2+d_1), \}.
+\end{gather*}
+
+Charakteristická funkce mùže být považována za poèáteèní øešení hry v~tom smyslu, že její výpoèet poskytne náhled do struktury hry. V~tomto pøíkladì byly hodnoty spoèteny jako odpovìdi na otázku, jakého maximálního zisku mùže koalice dosáhnout za pøedpokladu, že ostatní hráèi se snaží tento zisk minimalizovat. Nejlepší, co mùže udìlat sám hráè $P_1$, resp. $P_2$, je hrát druhou strategii a získat $c_1$, resp. $c_2$. Dohromady mohou hráèi získat $b_1+b_2$. V~tomto pøíkladì je oprávnìné vyhodnotit $\upsilon(\overline{1})$ jako $c_1$, protože hráè $P_2$ tím, že minimalizuje zisk hráèe $P_1$, souèasnì optimalizuje své vlastní skóre. To nemusí být pravda obecnì, jako protipøíklad slouží následující hra.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.35]{1_5.png}
+\caption{}
+\end{figure}
+ 
+ Zde charakteristická funkce nabývá hodnot
+\[
+\upsilon(\emptyset)=0, \quad \upsilon(\overline{1})=0, \quad \upsilon(\overline{2})=5, \quad
+\upsilon(\overline{12})=15.
+\]
+
+Zde je ponìkud nelogické považovat pozici  hráèe $P_2$ za nejvýhodnìjší. Paradox je v~zacházení s~hrozbami. Výpoèet charakteristické funkce pro hráèe $P_1$ nebere v~úvahu vysoké náklady hráèe $P_2$ spojené s~výbìrem strategie 2.
+
+Mùžeme definovat \emph{zobecnìnou charakteristickou funkci} (èi \emph{charakterizující funkci}) $V(S)$, která pro každou množinu hráèù $S$ urèuje množinu optimálních dosažitelných ziskù.
+
+Zpùsob definice zobecnìné charakteristické funkce je ilustrován na obrázku \ref{charfce}, který zobrazuje pøíklad se tøemi hráèi. Osy $\alpha_1,\alpha_2,\alpha_3$ znázoròují zisky obdržené po øadì hráèi 1, 2 a 3. Zacházíme s $V(S)$, jako by to byl válec, který vyøízne èást Paretovsky optimální plochy pro hru $n$ hráèù jako celek. Napøíklad koalice $\overline{12}$ mùže získat alespoò tolik, kolik se jí dostává v~libovolném bodì èásti Paretovsky optimální množiny $ABC$ ohranièené $EFC$.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.35]{1_6.png}
+\caption{Zobecnìná charakteristická funkce \label{charfce}}
+\end{figure}
+\end{document}
