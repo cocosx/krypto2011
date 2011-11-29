@@ -1,0 +1,50 @@
+\documentclass[a4paper,10pt]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fullpage}
+%\topmargin -2cm%
+\textheight 24cm
+\setlength\parindent{0pt}
+\thispagestyle{empty}
+\begin{document}
+\begin{flushleft}
+Číslo cvičení: 8 \\ 
+Jméno: Marek Bryša \\
+UČO: 323771\\
+Login: xbrysa1\\
+\end{flushleft}
+\begin{enumerate}
+  \item
+    \[
+    n^{40}+1=(n^8)^5+1=x^5+1=(x+1)\cdot(x^4-x^3+x^2-x+1)
+    \]
+  \item
+    $4a^3+27b^2 \mod p \neq 0 \iff$ elliptic curve can be used to form a group over $F_p$.\\
+    $4\cdot 1000+27\cdot25 \mod 17=0\implies$ the e.c. does not form the group.
+  \item
+    \begin{enumerate}
+      \item
+        $a_1=3^2+1 \mod 4577=10$, $b_1=(3^2+1 \mod 4577)^2 +1 \mod 4577=101$, $gcd(10-101,4577)=1$\\
+        $a_2=10^2+1 \mod 4577=101$, $b_1=(101^2+1 \mod 4577)^2 +1 \mod 4577=4402$, $gcd(101-4402,4577)=23$\\
+        $4577=23\cdot199$
+      \item
+        $2P=(80,65)$ and we compute $gcd(283,143)=1$.\\
+        $3P=(131,102)$ and we compute $gcd(64,143)=1$.\\
+        $4P=(14,28)$ and we compute $gcd(13,143)=13$.
+    \end{enumerate}
+  \item
+    The elliptic curve is isomorphic to $Z_5$. $\infty$ has the role of 0.
+    \begin{center}
+      \begin{tabular}{|c|ccccc|}
+        \hline
+        \input{z5.tex}
+      \end{tabular}
+    \end{center}
+  \item
+   $x^{11}-1=0 \mod 2011\iff x^{11}=1 \mod 2011$. From Euler's theorem $a^{\varphi(n)}=1 \mod n$ if $a$ is coprime to $n$
+   and here all are, since $n$ is prime. $\varphi(2011)=2010=2\cdot3\cdot5\cdot67$. In case of a prime exponent, the solution to the original equations other than $x=1$ only exist for prime factors of 2010. 11 is not one of them so the solution does not exist.
+\end{enumerate}
+\end{document}
