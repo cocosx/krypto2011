@@ -1,0 +1,227 @@
+\documentclass{beamer}
+\usepackage[cp1250]{inputenc}
+\usepackage{czech}
+\usepackage{amsmath,amssymb}
+\usepackage{subfigure}
+\usetheme{Warsaw}
+
+
+\begin{document}
+
+
+ \begin{frame}
+    \frametitle{Teorie portfolia}
+    \begin{itemize}
+      \item Teorie portfolia je mikroekonomickou disciplínou, která zkoumá, jaké kombinace aktiv je vhodné držet, aby takto vytvoøené portfolio mìlo pøedem urèené vlastnosti. \cite[str. 1]{camsky}
+         \begin{itemize}
+           \item oèekávaný výnos
+           \item riziko, že se skuteèný výnos od oèekávaného odchýlí
+    \end{itemize}
+    \end{itemize}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Výnosnost jako náhodná velièina}
+    \begin{itemize}
+      \item koneèná množina aktiv $\{A_1,A_2,\dots,A_n\}$ 
+      \item známe minulý vývoj
+      \item ceny a výnosy v~budoucnosti neznáme
+      \item na budoucí výnosnosti aktiv nahlížíme jako na náhodné velièiny
+      \item stejnì tak je náhodnou velièinou budoucí výnosnost celého portfolia
+      \item neznáme pravdìpodobnostní rozdìlení tìchto náhodných velièin
+      \item riziko mìøíme pomocí smìrodatné odchylky náhodné velièiny pøedstavující budoucí výnosnost aktiva
+    \end{itemize}
+  \end{frame}
+  \begin{frame}
+   \frametitle{Výnosnost portfolia}
+      \begin{itemize}
+        \item portfolio tvoøené aktivy $A_1,A_2,\dots,A_n$
+        \item váha aktiva $A_i$ v~portfoliu je $w_i$
+        \item  váhy musí splòovat následující omezení:
+			\begin{gather}
+				\sum_{i=1}^n w_i = 1 \label{wr1}, \\
+				0 \leq w_i \leq 1, \quad i\in\{1,\dots,n\}. \label{wr2}
+			\end{gather}
+        \item $R_i$ $\dots$ výnosnost aktiva $A_i$, $i \in \{1,\dots, n\}$
+        \item $R$ výnosnost celého portfolia
+        \item pak
+          	\[
+				R = w_1R_1+w_2R_2+\dots+w_nR_n = \sum_{i=1}^n w_iR_i.
+			\]
+      \end{itemize}
+   \end{frame} 
+   
+    \begin{frame}
+    \frametitle{Výnosnost portfolia a riziko }
+ \begin{itemize}
+\item  hodnoty výnosností aktiv neznáme $\Rightarrow$ budou nás zajímat jejich oèekávané hodnoty
+\item  z~linearity støední hodnoty:
+\begin{equation}
+E\left(\sum_{i=1}^n w_iR_i\right)=\sum_{i=1}^n w_iE(R_i). \label{ER}
+\end{equation}
+\item riziko mìøíme pomocí rozptylu, èi smìrodatné odchylky
+\item k~výpoètu rozptylu náhodné velièiny $R$ potøebujeme kovariance náhodných velièin
+\[
+cov(R_i, R_j)=E\left( \left(R_i - E(R_i) \right)\left(R_j - E(R_j) \right)\right), \quad i,j \in \{1,\dots, n\}.
+\]
+\item Pro rozptyl náhodné velièiny $R$ platí
+\[
+D(R)=D\left(\sum_{i=1}^n w_iR_i\right)=\sum_{i=1}^n \sum_{j=1}^n w_iw_jcov(R_i,R_j).\
+\]
+\end{itemize}
+    
+    \end{frame}
+\begin{frame}
+\frametitle{Maximalizace oèekávaného výnosu}
+\begin{itemize}
+\item  uvažme investora, který chce najít portfolio pøinášející maximální oèekávaný výnos
+\item hledá konstanty $w_1,w_2,\dots,w_n$ splòující podmínky \eqref{wr1} a \eqref{wr2}, pro nìž nabývá støední hodnota $E(R)$ maxima, tj. øeší úlohu
+
+\small{
+\begin{gather} 
+\max\left\{ E\left(\sum_{i=1}^n w_iR_i\right) \bigg| \sum_{i=1}^n w_i = 1 \wedge w_i \in \mathbb{R}, 0 \leq w_i \leq 1, i\in\{1,\dots,n\} \right\}. \label{maxER}
+\end{gather}}
+
+\item øešením úlohy \eqref{maxER} je
+\begin{gather*}
+w_j=1,\quad j=\arg \max_{1 \leq i \leq n} E(R_i), \\
+w_i=0,\quad i\in\{1,\dots,n\}, i \neq j, 
+\end{gather*}
+\begin{itemize}
+\item  za pøedp., že mezi $E(R_1),E(R_2),\dots,E(R_n)$ existuje jediné maximum
+\item  portfolio z~jediného aktiva - bez diverzifikace
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Metody kvantifikace oèekávaného výnosu a rizika}
+    \begin{itemize}
+      \item budoucí výnosnosti aktiv neznáme
+      \item neznáme ani pravdìpodobnostní rozdìlení tìchto náhodných velièin
+      \item odhady charakteristik tìchto náhodných velièin
+      	\begin{itemize}
+			\item historická metoda
+			\[
+\overline{r_i}=\frac{1}{T}\sum_{j=1}^T r_{ij},
+\quad
+s_i=\sqrt{\frac{1}{T-1}\sum_{j=1}^T (r_{ij}-\overline{r_i})^2},
+\]
+\[
+s_{ik}=\frac{1}{T-1}\sum_{j=1}^T (r_{ij}-\overline{r_i})(r_{kj}-\overline{r_k})
+\]
+			\item expertní metoda
+		\end{itemize}
+    \end{itemize}
+  \end{frame}
+
+\begin{frame}
+    \frametitle{Markowitzùv model}
+    \begin{itemize}
+      \item Harry MARKOWITZ: \emph{Portfolio Selection.} 1952.
+      \item maximalizace oèekávaného výnosu portfolia a souèasnì minimalizace rizika
+      \begin{itemize}
+      \item protichùdné cíle 
+      \item odpor k~riziku je velmi subjektivní
+       \end{itemize}
+      \item o~vztahu investora k~riziku vypovídají indiferenèní køivky
+      \item pouze nìkterých kombinací výnosnosti a rizika lze dosáhnout
+      \item není potøeba uvažovat všechny kombinace - nìkteré mùžeme vylouèit
+    \end{itemize}
+  \end{frame}
+  
+  \begin{frame}
+    \frametitle{Indiferenèní køivky}
+    \begin{itemize}
+      \item portfolio = bod v~kartézské soustavì souøadnic
+      \begin{itemize}
+			\item osa $x$: riziko mìøené smìrodatnou odchylkou
+			\item osa $y$: oèekávaná výnosnost
+		\end{itemize}
+      \item IC - všechny kombinace portfolií, které investor považuje za stejnì žádoucí
+    \begin{figure}[htb]
+\centering
+\includegraphics[width=.4\textwidth]{IC0.png}
+\caption{Pøíklad indiferenèních køivek, zdroj: \cite{camsky} \label{obr_IC}}
+\end{figure}
+    \end{itemize}
+  \end{frame}
+  
+  \begin{frame}
+    \frametitle{Indiferenèní køivky dle míry odporu k~riziku}
+    \begin{figure}[htb]
+\centering
+\subfigure[Investor s~vysokým odporem k~riziku]{\includegraphics[width=.30\textwidth]{IC3.png}} 
+\subfigure[Investor s~mírným odporem k~riziku]{\includegraphics[width=.30\textwidth]{IC2.png}} 
+\subfigure[Investor s~nepatrným odporem k~riziku]{\includegraphics[width=.35\textwidth]{IC1.png}} 
+\caption{Indiferenèní køivky investora dle míry odporu k~riziku, zdroj: vlastní vyobrazení \label{obr_ICs}}
+\end{figure}
+  \end{frame}
+
+\begin{frame}
+    \frametitle{Efektivní množina}
+    \begin{itemize}
+      \item nekoneènì mnoho portfolií
+      \item \emph{pøípustná množina} -  mn. všech portfolií složených z~aktiv $A_1,A_2,\dots,A_n$
+      \item staèí se omezit na efektivní množinu
+       \end{itemize}
+       \begin{block}{Efektivní množina}
+       \emph{Efektivní množina} je množina všech portfolií z~pøípustné množiny, které splòují obì dvì následujících podmínky:
+\begin{itemize}
+\item v~pøípustné množinì neexistuje portfolio se stejným rizikem a vyšším oèekávaným výnosem,
+\item v~pøípustné množinì neexistuje portfolio se stejným oèekávaným výnosem a nižším rizikem. 
+\end{itemize}
+       \end{block}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Efektivní množina - pøíklad}
+    \begin{figure}[htb]
+\centering
+\includegraphics[width=.6\textwidth]{ef_mn.png}
+\caption{Pøípustná a efektivní množina, zdroj: \cite{camsky} \label{ef_mn}}
+\end{figure}
+  \end{frame}
+  
+  \begin{frame}
+  \begin{itemize}
+  \frametitle{Hledání efektivní množiny}
+ \item Hledání efektivní množiny mùžeme popsat následovnì:
+\begin{itemize}
+\item pro každou fixní úroveò rizika nalezneme všechna dostupná portfolia s~maximální oèekávanou výnosností, 
+\item pro každou fixní úroveò oèekávané výnosností nalezneme všechna dostupná portfolia s~minimálním rizikem,
+\item do efektivní množiny zaøadíme právì ta portfolia, která byla vybrána v~obou pøedchozích krocích.
+\end{itemize}
+\end{itemize}
+  \end{frame}
+  
+  
+
+\begin{frame}
+    \frametitle{Výbìr optimálního portfolia}
+    \begin{itemize}
+      \item výbìr z efektivní množiny na základì indiferenèních køivek
+      \item investor vybere portfolio z~efektivní množiny ležící na nejvyšší indiferenèní køivce
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=.4\textwidth]{vyber.png}
+\caption{Výbìr optimálního portfolia, zdroj: \cite{camsky} \label{vyber}}
+\end{figure}
+    \end{itemize}
+  \end{frame}
+
+ 
+
+\renewcommand{\bibname}{Seznam použité literatury}
+\begin{frame}
+\frametitle{Seznam použité literatury}
+\begin{thebibliography}{9}
+\addcontentsline{toc}{chapter}{Seznam použité literatury}
+\thispagestyle{plain}
+\bibitem{camsky} ÈÁMSKÝ, František. \emph{Teorie portfolia.} 2. pøeprac. a rozš. vyd. Brno : Masarykova univerzita, 2007. 115 s. ISBN 9788021042520.
+\bibitem{markowitz} MARKOWITZ, Harry. \emph{Portfolio Selection.} The Journal of Finance. Mar., 1952, Vol. 7, No. 1, s. 77-91. 
+\end{thebibliography}
+\end{frame}
+
+\end{document}

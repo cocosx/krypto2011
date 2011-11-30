@@ -1,0 +1,64 @@
+\documentclass[xcolor=dvipsnames]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage[czech]{babel}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{subfigure}
+%\useoutertheme[subsection=false]{smoothbars}
+\usetheme{Madrid}
+\usecolortheme[named=OliveGreen]{structure}
+%\usecolortheme[named=OliveGreen]{structure} 
+%\usetheme[height=7mm]{Rochester} 
+%\setbeamertemplate{items}[ball] 
+%\setbeamertemplate{blocks}[rounded][shadow=true] 
+%\useoutertheme{umbcfootline}
+\title{Teorie portfolia}
+\author{Marek Bryša, Jan Kovář}
+\institute
+{
+Masarykova Univerzita\\
+Přírodovědecká fakulta
+}
+\date{\today}
+
+\begin{document}
+  \frame{\titlepage}
+  \section{Teoretická část}
+  \input{kovar.tex}
+  \section{Praktická část}
+  \input{brysa.tex}
+  
+  \renewcommand{\bibname}{Seznam použité literatury}
+  \begin{frame}[shrink=15]
+    \frametitle{Seznam použité literatury}
+    \begin{thebibliography}{9}
+      \addcontentsline{toc}{chapter}{Seznam použité literatury}
+      %\thispagestyle{plain}
+      \bibitem{camsky}
+        ČÁMSKÝ, František. \emph{Teorie portfolia.} 2. přeprac. a rozš. vyd. Brno : Masarykova univerzita, 2007. 115 s. ISBN 9788021042520.
+      \bibitem{markowitz}
+        MARKOWITZ, Harry. \emph{Portfolio Selection.} The Journal of Finance. Mar., 1952, Vol. 7, No. 1, s. 77-91.
+        
+      \bibitem{tvaught}
+      VAUGHT, Travis. Travis Vaught Blog [online]. 2011-09-01 [cit. 2011-11-26]. Modern Portfolio Theory - A Python Implementation. Dostupné z WWW: \url{http://travisvaught.blogspot.com/2011/09/modern-portfolio-theory-python.html}.
+
+      \bibitem{source}
+      VAUGHT, Travis. GitHub [online]. 2009-10-31 [cit. 2011-11-26]. Portfolio metrics. Dostupné z WWW: \url{https://github.com/tvaught/experimental/tree/master/portfolio_metrics}.
+
+      \bibitem{sharpe}
+      SHARPE, William F., William F. Shapre personal page [online]. 2008 [cit. 2011-11-26]. The Gradient Method. Dostupné z WWW: \url{http://www.stanford.edu/~wfsharpe/mia/opt/mia_opt1.htm}.
+
+      \bibitem{yahoo}
+      Yahoo! Inc. Yahoo! Finance [online]. c2011 [cit. 2011-11-26]. Dostupné z WWW: \url{http://finance.yahoo.com/}.
+
+      \bibitem{ft}
+      Finacial Times. Financial Times Special Report [online]. 2011-05-19 [cit. 2011-11-26]. Global Brands. Dostupné z WWW: \url{http://www.millwardbrown.com/Libraries/Optimor_BrandZ_Files/2011_BrandZ_FinancialTimes_SpecialReport.sflb.ashx}.
+    \end{thebibliography}
+  \end{frame}
+\end{document}

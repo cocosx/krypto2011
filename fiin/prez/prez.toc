@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {czech}
+\beamer@sectionintoc {1}{Teoretick\IeC {\'a} \IeC {\v c}\IeC {\'a}st}{2}{0}{1}
+\beamer@sectionintoc {2}{Praktick\IeC {\'a} \IeC {\v c}\IeC {\'a}st}{15}{0}{2}
+\contentsline {chapter}{Seznam pou\IeC {\v z}it\IeC {\'e} literatury}
