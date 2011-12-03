@@ -1,0 +1,55 @@
+\documentclass[a4paper,10pt]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fullpage}
+%\topmargin -2cm%
+\textheight 24cm
+\setlength\parindent{0pt}
+\thispagestyle{empty}
+\begin{document}
+\begin{flushleft}
+Číslo cvičení: 9 \\ 
+Jméno: Marek Bryša \\
+UČO: 323771\\
+Login: xbrysa1\\
+\end{flushleft}
+\begin{enumerate}
+  \item
+    \begin{enumerate}
+      \item
+        $4586^{107}=1 \mod 7919$, $q$ is prime.
+      \item
+        $v=4586^{-55}=1175 \mod 7919$
+      \item
+        $\gamma=4586^{29}=48 \mod 7919$
+      \item
+        $y=29+55\cdot61=3384 \mod 7919$
+      \item
+        $4586^{3384}\cdot1175^{61}=48=\gamma \mod 7919$
+    \end{enumerate}
+  \item
+    The father can use Shamir's $(5,3)$-threshold scheme, where the eldest son receives 2 pieces of the secret and the others get 1 each.
+  \item
+  \item
+    $l_0=\frac{x-3}{1-3}\cdot\frac{x-7}{1-7}=x^2/12-(5 x)/6+7/4$\\
+    $l_1=\frac{x-1}{3-1}\cdot\frac{x-7}{3-7}=-x^2/8+x-7/8$\\
+    $l_2=\frac{x-1}{7-1}\cdot\frac{x-3}{7-3}=x^2/24-x/6+1/8$\\
+    %28(x^2/12-(5 x)/6+7/4)+31(-x^2/8+x-7/8)+17(x^2/24-x/6+1/8)
+    $f(x)=28l_0+31l_1+17l_2=-(5 x^2)/6+(29 x)/6+24$\\
+    $S=f(0)=24$
+  \item
+    \begin{enumerate}
+      \item
+        Bob accepts iff $y^e=RX_A^f \mod n$.
+      \item
+        $Y=y^e=(rx_A^f)^e=RX_A^f \mod n$.
+      \item
+        In step (i) Eve chooses $R=X_a^{f(e-1)}$. In step (iii) Eve sends $y=X_A^f$. Then $Y=X_A^{fe}$ and $RX_A^f=X_A^{f(e-1)}X_A^f=X_A^{fe}\implies$ Bob accepts.
+        
+    \end{enumerate}
+
+\end{enumerate}
+\end{document}
