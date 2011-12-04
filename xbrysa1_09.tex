@@ -50,6 +50,8 @@ Login: xbrysa1\\
         In step (i) Eve chooses $R=X_a^{f(e-1)}$. In step (iii) Eve sends $y=X_A^f$. Then $Y=X_A^{fe}$ and $RX_A^f=X_A^{f(e-1)}X_A^f=X_A^{fe}\implies$ Bob accepts.
         
     \end{enumerate}
-
+  \item
+    For each group of $t-1$ scientists there must be at least one unique lock that they cannot open. And if a new scientist join the group, he must be able to open it. Hence there must be at least $\binom{n}{t-1}=\binom{11}{5}=462=L$ locks.\\
+    Each group of $t$ scientists must be able to open the locks so at least $n-t+1$ must posses the keys. Each must therefore have $\frac{n-t+1}{n}\cdot L=252$ keys.
 \end{enumerate}
 \end{document}
