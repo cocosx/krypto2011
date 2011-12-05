@@ -1,0 +1,43 @@
+\documentclass[a4paper,10pt]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fullpage}
+%\topmargin -2cm%
+\textheight 24cm
+\setlength\parindent{0pt}
+\thispagestyle{empty}
+\begin{document}
+\begin{flushleft}
+Číslo cvičení: 10 \\ 
+Jméno: Marek Bryša \\
+UČO: 323771\\
+Login: xbrysa1\\
+\end{flushleft}
+\begin{enumerate}
+  \item
+    The chance of me successfuly cheating $n$ rounds is $C=(1/2)^n$ so the probability of proving is $P=1-C$. Hence I need at least $\log_{1/2}(1-x)$ rounds to prove myself with probability $x\cdot 100\%$.
+  \item
+  \item
+    \begin{description}
+      \item[Completeness]
+        If the prover is honest, he can easily pass verifiers checks for both values of $\sigma$.
+      \item[Zero knowledge]
+        In each round, verifier only learns $\Pi$ or a hamiltonian cycle for a permutated graph. He would need both to reconstruct the original $C$. Verifier can easily simulate the protocol because he knows his $\sigma$ in advance and can therefore either respond to himself with a random $\Pi$ or a cycle to a similar random graph.
+      \item[Soundness]
+        If the prover is dishonest, he can do the same thing as the verifier in simulation, however this reduces to a coin flip situation as in 1., so with enough rounds, provers cheating will be probably revealed.
+    \end{description}
+  \item
+    \begin{itemize}
+      \item
+        Peggy chooses a random permutation $\Pi$ and commits the permutated solved table face down.
+      \item
+        Victor asks Peggy to reveal one of the rows, one of the columns, one of the main $3\times 3$ boxes or the unsolved puzzle --- all after applying $\Pi$.
+      \item
+        Victor accepts if the chosen set contains all of $1\dots 9$ exactly once or in the last case the unsolved puzzle is indeed a permutation of the original.
+    \end{itemize}
+    Victor can prove Peggy is cheating with probability at least $1/28$ per round, so again with enough rounds this becomes certainty.
+\end{enumerate}
+\end{document}
