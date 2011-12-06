@@ -33,6 +33,14 @@ Login: xbrysa1\\
   \item
     The father can use Shamir's $(5,3)$-threshold scheme, where the eldest son receives 2 pieces of the secret and the others get 1 each.
   \item
+    \begin{enumerate}
+      \item
+        Not a MAC. Considering a chosen message attack we would authentize $(a||b,e_k(a||b))$ and $(c||d,e_k(c||d))$. Then we could forge $a||d$ and $c||b$. The same applies if a man-in-the-middle intercepts two different messages.
+      \item
+        Not a MAC. Reason is the same as in (a).
+      \item
+        Not a MAC. Intercepting a single message is sufficient to authentize any permutation of its $m_i$ submessages.
+    \end{enumerate}
   \item
     $l_0=\frac{x-3}{1-3}\cdot\frac{x-7}{1-7}=x^2/12-(5 x)/6+7/4$\\
     $l_1=\frac{x-1}{3-1}\cdot\frac{x-7}{3-7}=-x^2/8+x-7/8$\\
