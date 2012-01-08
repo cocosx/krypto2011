@@ -1,0 +1,45 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage[czech]{babel}
+\title{MF004 -- semestrální projekt}
+\author{Marek Bryša, 323771}
+\date{Brno, \today}
+\begin{document}
+\maketitle
+\section{Data}
+  \subsection{Úvod}
+    Zdrojem dat je soubor \texttt{MortgageDefaulters.xls}. Obsahuje údaje o 15153 klientech banky, kteří mají hypoteční úvěr. Cílem je identifikovat klienty s vysokou pravděpodobností, že nebudou splácet. K dispozici jsou tyto proměnné:
+    \begin{description}
+      \item[Bo\_Age] Věk klienta
+      \item[Ln\_Orig] Výše půjčký v USD
+      \item[Orig\_LTV\_Ratio\_Pct] Poměr půjcky a nákupní ceny domu
+      \item[Credit\_score] Klientovo credit score
+      \item[First\_home] První klientův nákup dům (Y/N)
+      \item[Tot\_mthly\_debt\_exp] Klientův celkový měsíční výdaj na půjčku
+      \item[Tot\_mthly\_incm] Klinetův celkový měsíční příjem
+      \item[orig\_apprd\_val\_amt] Odhad ceny domu v době žádosti
+      \item[pur\_prc\_amt] Kupní cena domu
+      \item[DTI\_ratio] Poměr nákladu na dluh a příjmu klienta -- měsíčně 
+      \item[StatusCurrent] Stav půjčky
+      \item[OUTCOME] Binary binární verze stavu: 0=v pořádku, 1=default
+      \item[StateUS] Stát USA, kde se dům nachází
+      \item[Median\_state\_inc] Střední příjem domácnosti v daném státě (2002-2004)
+      \item[UPB$>$Appraisal] Je půjčka vyšší než odhad? 0=ne, 1=ano
+    \end{description}
+  \subsection{Popisné statistiky}
+    V následujíci tabulce jsou uvedeny popisné statistiky intervalových proměnných:
+    \begin{center}
+    \begin{tabular}{|l|r|r|r|r|r|r|r|r|r|r|}
+      \hline
+      \input{desc1.tex}
+    \end{tabular}
+    \end{center}
+    Je zřejmé, že data obsahují některé podezřelé hodnoty. Bude nunté porvést transformaci.
+  \subsection{Transformace dat}
+\end{document}
