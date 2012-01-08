@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.12.6)  6 DEC 2011 22:22
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.11.24)  8 DEC 2011 13:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,8 +528,8 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ] (./zos_uvod.aux) ) 
 Here is how much of TeX's memory you used:
  4748 strings out of 493633
- 60619 string characters out of 3148832
- 123545 words of memory out of 3000000
+ 60619 string characters out of 3148831
+ 124545 words of memory out of 3000000
  7965 multiletter control sequences out of 15000+200000
  12010 words of font info for 39 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -538,7 +538,7 @@ Here is how much of TeX's memory you used:
 sr/share/texmf-dist/fonts/type1/public/cs/csr10.pfb></usr/share/texmf-dist/font
 s/type1/public/cs/csr12.pfb></usr/share/texmf-dist/fonts/type1/public/cs/cstt10
 .pfb>
-Output written on zos_uvod.pdf (3 pages, 72536 bytes).
+Output written on zos_uvod.pdf (3 pages, 72775 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
