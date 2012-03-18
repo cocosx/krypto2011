@@ -1,0 +1,53 @@
+\documentclass[a4paper,10pt]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fullpage}
+%\topmargin -2cm%
+%\textheight 24cm
+\setlength\parindent{0pt}
+\thispagestyle{empty}
+\begin{document}
+\begin{flushleft}
+Sada: 1 \\ 
+Jméno: Marek Bryša \\
+UČO: 323771\\
+\end{flushleft}
+\begin{enumerate}
+  \item
+	\begin{enumerate}
+		\item
+			Ano patří, třída NP je uzavřená na průnik a sjednocení. Stroj pro sjednocení akceptuje, pokud aspoň jeden z $M_1,M_2$ akceptují vstup. Stroj pro průnik vyžaduje akceptaci obou $M_1$ a $M_2$.
+		\item
+			Verifikátor pro $A(w,c)$ funguje takto: ($\bigstar$ je BÚNO oddělovník)
+			\begin{itemize}
+				\item Pokud $c$ není tvaru $c_1\bigstar c_2$ zamítni.			
+				\item Vyzkoušej všchny pozice, kde končí první a začína druhé slovo $w_1, w_2$.
+				\item Pokud je první i druhé slovo verifikováno svými $A_1(w_1,c_1)$, $A_2(w_2,c_2)$, akceptuje, jinak zamítá.
+			\end{itemize}
+			$A_1$ i $A_2$ se volá maximálně $|w|+1$ krát, takže $A$ je polynomiální.
+			
+			Stroj $M(x)$ pro $L_1^*$:
+			\begin{itemize}
+				\item	Pokud je $x$ prázdné slovo, akceptuj.
+				\item Nedeterministicky zvol $1\leq n \leq |x|$:
+				\item Nedeterministicky zvol rozdělení $x$ na $x_1x_2\dots x_n$:
+				\item Pokud $M_1(x_i)$ akceptuje pro všechna $1\leq i \leq n$, akceptuj.
+				\item Jinak zamítni.
+			\end{itemize}
+			První dva kroky lze provést v lineárním čase, třetí v polynomiálním. Každý $M_i\in O(n^k)$ a celý cyklus je volán n-krát. Celkem je tedy algoritmus NP.
+		\item
+			Rozhodovací stroj pro $L_1\cdot L_2$ funguje zcela analogicky jako verifikátor v 1.(b), jen se vypustí certifikáty a místo verifikace se simulují $M_1, M_2$.
+			
+			Slovo $w$ je z $L_1^*$ právě tehdy, když platí jedno z:
+			\begin{itemize}
+				\item $w=\epsilon$
+				\item $w\in L_1$
+				\item $w=uv$ takové, že $u,v \in L_1^*$
+			\end{itemize}
+			Nechť $w=w_1\dots w_n$. Stroj buduje pole $P(i,j)=true \iff w_{i,j}\in L_1^*$. To udělá tak, že projde všechny podřetězce $w$ postupně od délky 1 do $n$ a simuluje na nich $M_1$. To jde pomocí 3 vnořených cyklů, přičemž $M_1$ je voláno $n^2$-krát na vstup délky nejvýše $n$, celková časová složitost tedy zůstává polynomiální. Stroj akceptuje, pokud $P(1,n)=true$.
+	\end{enumerate}
+\end{enumerate}
+\end{document}
