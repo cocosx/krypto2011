@@ -61,7 +61,7 @@ UČO: 323771\\
 		Podle deterministické separace:\\
 		$DSPACE(n^4)\subsetneq DSPACE(n^5)$, tj. existuje $L$ takový, že $L\in DSPACE(n^5) \wedge L\notin DSPACE(n^4) \implies L\notin NTIME(n^2)$. QED
 	\item
-		Formuli v CNF lze sice na ekvivalentní v DNF převést, ale ne v polynomiálním čase.
+		Formuli v CNF lze sice na ekvivalentní v DNF převést, ale obecnně ne v polynomiálním čase.
   \stepcounter{enumi}
 	\item
 		\begin{itemize}
@@ -70,6 +70,6 @@ UČO: 323771\\
 			\item Předpokládejme, že je pravdivá právě 1 z $x,y,z$. BÚNO $x=1, y=z=0$. Splníme tím klauzule 1,4,5,6 a volbou $w=0$ také 8,9,10. Celkem 7.
 			\item Předpokládejme, že $x=y=z=0$. Pak volbou $w=1$ splníme klauzule 4,5,6,7, celkem 4. Volbou $w=0$ splníme klauzule 4,5,6,8,9,10, celkem 6.
 		\end{itemize}
-		Hledanou hodnotou je tedy $k=7$. Pokud je splněno aspoň jedno z $x,y,z$ ve $\Phi$, lze podle předchozího schematu zvolit $w$ tak, aby bylo splněno právě 7 klauzulí $\overline{\Phi}$. Naopak pokud je splněno 7 klauzulí $\overline{\Phi}$, podle předchozího je aspoň jedno z $x,y,z$ ve $\Phi$ také splněno.
+		Hledanou hodnotou je tedy $k=7$. Pokud je splněno aspoň jedno z $x,y,z$ v každé klauzuli z $\Phi$, lze podle předchozího schematu volit $w_i$ tak, aby bylo splněno právě $7n$ klauzulí $\overline{\Phi}$. Naopak pokud je splněno $7n$ klauzulí $\overline{\Phi}$, podle předchozího je aspoň jedno z $x,y,z$ každé klauzuli $\Phi$ také splněno.
 \end{enumerate}
 \end{document}

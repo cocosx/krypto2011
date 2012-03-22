@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.2.19)  20 MAR 2012 17:17
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.2.19)  21 MAR 2012 23:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -490,7 +490,7 @@ re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/f
 onts/type1/public/cs/csr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on sloz1.pdf (1 page, 84445 bytes).
+Output written on sloz1.pdf (1 page, 84526 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
