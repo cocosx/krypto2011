@@ -1,0 +1,1078 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang1033\deflangfe1033
+{\fonttbl
+{\f1\froman\fprq2\fcharset0 Times New Roman;}
+}{\colortbl;
+\red0\green0\blue0;
+\red0\green0\blue255;
+\red0\green255\blue255;
+\red0\green255\blue0;
+\red255\green0\blue255;
+\red255\green0\blue0;
+\red255\green255\blue0;
+\red255\green255\blue255;
+\red0\green0\blue128;
+\red0\green128\blue128;
+\red0\green128\blue0;
+\red128\green0\blue128;
+\red128\green0\blue0;
+\red128\green128\blue0;
+\red128\green128\blue128;
+\red192\green192\blue192;
+\red187\green187\blue187;
+}{\stylesheet{\widctlpar\adjustright\fs20\cgrid\snext0 Normal;}{\*\cs10\additive Default Paragraph Font;}
+}{\info{\title V9.2 SAS System Output}{\author SAS Version 9.2}{\operator SAS Version 9.2}{\version1}{\creatim\yr2012\mo1\dy9\hr10\min21\sec42}}
+\widowctrl\ftnbj\aenddoc\formshade\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\fet0\paperw12240\paperh15840\margl360\margr360\margt360\margb360
+\sectd\linex0\endnhere\headery720\footery360\marglsxn360\margrsxn360\margtsxn360\margbsxn360
+{\header\pard\plain\qc\pvmrg\phmrg\posxr\posy0{
+\sb0\sa0\qr\f1\fs20\cf1{{\field{\*\fldinst { DATE \\@ "hh:mm  dddd, MMMM dd, yyyy  " }}}}
+\b\sb0\sa0\qr\f1\fs20\cf1{{\field{\*\fldinst { PAGE }}}}
+{\par}
+\pard\trowd\trkeep\trqc\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx11520
+\pard\plain\intbl\b\i\sb10\sa10\qc\f1\fs26\cf1{The SAS System\cell}
+{\row}
+\pard{\par}\trowd\trkeep\trqc\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx2746
+\pard\plain\intbl\b\i\sb10\sa10\qc\f1\fs24\cf1{The LOGISTIC Procedure\cell}
+{\row}
+\pard\par}}
+{\footer\pard\plain\qc{
+}}{\*\bkmkstart IDX}{\*\bkmkend IDX}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4218
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Model Information\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2799
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Data Set\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{WORK.CAT\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2799
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Response Variable\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{OUTCOME\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2799
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4218
+\pard\plain\intbl\b\sb60\sa60\ql\f1\fs22\cf1{Number of Response Levels\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{2\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2799
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Model\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{binary logit\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2799
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4218
+\pard\plain\intbl\b\sb60\sa60\ql\f1\fs22\cf1{Optimization Technique\cell}
+\pard\plain\intbl\sb60\sa60\ql\f1\fs20\cf1{Fisher's scoring\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX1}{\*\bkmkend IDX1}\trowd\trkeep\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx3059
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3709
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Number of Observations Read\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{15153\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx3059
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3709
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Number of Observations Used\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{15153\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX2}{\*\bkmkend IDX2}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3430
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Response Profile\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx958
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2268
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3430
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Ordered{\line}
+Value\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{OUTCOME\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Total{\line}
+Frequency\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx958
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2268
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3430
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{0\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{14751\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx958
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2268
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3430
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{2\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{402\cell}
+{\row}
+\pard\par\trowd\trkeep\trqc\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx4032
+\pard\plain\intbl\b\i\sb10\sa10\qc\f1\fs24\cf1{Probability modeled is OUTCOME='0'.\cell}
+{\row}
+\pard\pard\par\par\trowd\trkeep\trqc\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx3007
+\pard\plain\intbl\b\i\sb10\sa10\qc\f1\fs24\cf1{Stepwise Selection Procedure\cell}
+{\row}
+\pard\pard\par\par\trowd\trkeep\trql\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx2646
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{Step  0. Intercept entered:\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX3}{\*\bkmkend IDX3}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4178
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Model Convergence Status\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4178
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{Convergence criterion (GCONV=1E-8) satisfied.\cell}
+{\row}
+\pard\pard\par{\*\bkmkstart IDX4}{\*\bkmkend IDX4}\trowd\trkeep\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx958
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1198
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2103
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{-2 Log L\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{=\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{3711.359\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX5}{\*\bkmkend IDX5}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2952
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Residual Chi-Square Test\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1244
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1738
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2952
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1244
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1738
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2952
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{167.1999\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{12\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\pard\pard\par\par\trowd\trkeep\trql\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx3688
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{Step  1. Effect Credit_score entered:\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX6}{\*\bkmkend IDX6}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4178
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Model Convergence Status\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4178
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{Convergence criterion (GCONV=1E-8) satisfied.\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX7}{\*\bkmkend IDX7}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Model Fit Statistics\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Criterion\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Intercept{\line}
+Only\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Intercept{\line}
+and{\line}
+Covariates\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{AIC\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3713.359\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3613.387\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{SC\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3720.985\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3628.639\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{-2 Log L\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3711.359\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3609.387\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX8}{\*\bkmkend IDX8}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Testing Global Null Hypothesis: BETA=0\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Test\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Likelihood Ratio\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{101.9716\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Score\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{99.3280\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Wald\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{94.1327\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX9}{\*\bkmkend IDX9}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2952
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Residual Chi-Square Test\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1244
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1738
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2952
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1244
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1738
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2952
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{68.3963\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{11\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\pard\pard\par\par\trowd\trkeep\trql\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx506
+\cltxlrtb\clvertalt\clcbpat8\cellx4432
+\pard\plain\intbl\b\sb10\sa10\ql\f1\fs20\cf1{Note:\cell}
+\pard\plain\intbl\sb10\sa10\ql\f1\fs20\cf1{No effects for the model in Step 1 are removed.\cell}
+{\row}
+\pard\pard\par\par\trowd\trkeep\trql\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx4466
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{Step  2. Effect Tot_mthly_debt_exp entered:\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX10}{\*\bkmkend IDX10}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4178
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Model Convergence Status\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4178
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{Convergence criterion (GCONV=1E-8) satisfied.\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX11}{\*\bkmkend IDX11}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Model Fit Statistics\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Criterion\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Intercept{\line}
+Only\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Intercept{\line}
+and{\line}
+Covariates\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{AIC\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3713.359\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3562.127\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{SC\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3720.985\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3585.005\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{-2 Log L\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3711.359\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3556.127\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX12}{\*\bkmkend IDX12}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Testing Global Null Hypothesis: BETA=0\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Test\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Likelihood Ratio\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{155.2319\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{2\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Score\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{153.7396\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{2\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Wald\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{145.8541\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{2\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX13}{\*\bkmkend IDX13}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2952
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Residual Chi-Square Test\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1244
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1738
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2952
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1244
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1738
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2952
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{14.7727\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{10\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.1406\cell}
+{\row}
+\pard\pard\par\par\trowd\trkeep\trql\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx506
+\cltxlrtb\clvertalt\clcbpat8\cellx4432
+\pard\plain\intbl\b\sb10\sa10\ql\f1\fs20\cf1{Note:\cell}
+\pard\plain\intbl\sb10\sa10\ql\f1\fs20\cf1{No effects for the model in Step 2 are removed.\cell}
+{\row}
+\pard\pard\par\par\trowd\trkeep\trql\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx3579
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{Step  3. Effect First_home entered:\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX14}{\*\bkmkend IDX14}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4178
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Model Convergence Status\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4178
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{Convergence criterion (GCONV=1E-8) satisfied.\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX15}{\*\bkmkend IDX15}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Model Fit Statistics\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Criterion\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Intercept{\line}
+Only\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Intercept{\line}
+and{\line}
+Covariates\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{AIC\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3713.359\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3557.623\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{SC\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3720.985\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3588.127\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{-2 Log L\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3711.359\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3549.623\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX16}{\*\bkmkend IDX16}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Testing Global Null Hypothesis: BETA=0\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Test\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Likelihood Ratio\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{161.7361\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Score\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{159.1847\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Wald\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{151.0764\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX17}{\*\bkmkend IDX17}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2952
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Residual Chi-Square Test\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1244
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1738
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2952
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1244
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1738
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2952
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{8.3415\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{9\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.5001\cell}
+{\row}
+\pard\pard\par\par\trowd\trkeep\trql\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx506
+\cltxlrtb\clvertalt\clcbpat8\cellx4432
+\pard\plain\intbl\b\sb10\sa10\ql\f1\fs20\cf1{Note:\cell}
+\pard\plain\intbl\sb10\sa10\ql\f1\fs20\cf1{No effects for the model in Step 3 are removed.\cell}
+{\row}
+\pard\pard\par\par\trowd\trkeep\trql\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx4072
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{Step  4. Effect Tot_mthly_incm entered:\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX18}{\*\bkmkend IDX18}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4178
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Model Convergence Status\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4178
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{Convergence criterion (GCONV=1E-8) satisfied.\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX19}{\*\bkmkend IDX19}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Model Fit Statistics\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Criterion\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Intercept{\line}
+Only\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Intercept{\line}
+and{\line}
+Covariates\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{AIC\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3713.359\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3557.798\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{SC\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3720.985\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3595.927\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{-2 Log L\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3711.359\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3547.798\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX20}{\*\bkmkend IDX20}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Testing Global Null Hypothesis: BETA=0\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Test\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Likelihood Ratio\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{163.5614\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Score\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{160.7535\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Wald\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{152.2278\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX21}{\*\bkmkend IDX21}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2952
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Residual Chi-Square Test\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1244
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1738
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2952
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1244
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1738
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2952
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{6.4268\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{8\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.5995\cell}
+{\row}
+\pard\pard\par\par\trowd\trkeep\trql\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx4407
+\pard\plain\intbl\b\i\sb10\sa10\ql\f1\fs24\cf1{Step  5. Effect Tot_mthly_incm is removed:\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX22}{\*\bkmkend IDX22}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4178
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Model Convergence Status\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4178
+\pard\plain\intbl\keepn\sb60\sa60\qc\f1\fs20\cf1{Convergence criterion (GCONV=1E-8) satisfied.\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX23}{\*\bkmkend IDX23}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Model Fit Statistics\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Criterion\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Intercept{\line}
+Only\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Intercept{\line}
+and{\line}
+Covariates\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{AIC\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3713.359\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3557.623\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{SC\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3720.985\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3588.127\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1033
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2043
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3218
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{-2 Log L\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3711.359\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3549.623\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX24}{\*\bkmkend IDX24}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Testing Global Null Hypothesis: BETA=0\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Test\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Likelihood Ratio\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{161.7361\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Score\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{159.1847\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx1747
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2981
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3405
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4619
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Wald\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{151.0764\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX25}{\*\bkmkend IDX25}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2952
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Residual Chi-Square Test\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1244
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx1738
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2952
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1244
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx1738
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2952
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{8.3415\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{9\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.5001\cell}
+{\row}
+\pard\pard\par\par\trowd\trkeep\trql\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx506
+\cltxlrtb\clvertalt\clcbpat8\cellx4432
+\pard\plain\intbl\b\sb10\sa10\ql\f1\fs20\cf1{Note:\cell}
+\pard\plain\intbl\sb10\sa10\ql\f1\fs20\cf1{No effects for the model in Step 5 are removed.\cell}
+{\row}
+\pard\pard\par\par\trowd\trkeep\trql\trgaph10
+\cltxlrtb\clvertalt\clcbpat8\cellx506
+\cltxlrtb\clvertalt\clcbpat8\cellx8690
+\pard\plain\intbl\b\sb10\sa10\ql\f1\fs20\cf1{Note:\cell}
+\pard\plain\intbl\sb10\sa10\ql\f1\fs20\cf1{Model building terminates because the last effect entered is removed by the Wald statistic criterion.\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX26}{\*\bkmkend IDX26}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx11492
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Summary of Stepwise Selection\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvmgf\clvertalb\clcbpat17\cellx558
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4399
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvmgf\clvertalb\clcbpat17\cellx4823
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvmgf\clvertalb\clcbpat17\cellx5747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvmgf\clvertalb\clcbpat17\cellx6981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvmgf\clvertalb\clcbpat17\cellx8215
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvmgf\clvertalb\clcbpat17\cellx9414
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvmgf\clvertalb\clcbpat17\cellx11492
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Step\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Effect\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Number{\line}
+In\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Score{\line}
+Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Wald{\line}
+Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Variable{\line}
+Label\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvmrg\clvertalb\clcbpat17\cellx558
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2678
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4399
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvmrg\clvertalb\clcbpat17\cellx4823
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvmrg\clvertalb\clcbpat17\cellx5747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvmrg\clvertalb\clcbpat17\cellx6981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvmrg\clvertalb\clcbpat17\cellx8215
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvmrg\clvertalb\clcbpat17\cellx9414
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvmrg\clvertalb\clcbpat17\cellx11492
+\pard\plain\intbl\keepn{\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Entered\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Removed\cell}
+\pard\plain\intbl\keepn{\cell}
+\pard\plain\intbl\keepn{\cell}
+\pard\plain\intbl\keepn{\cell}
+\pard\plain\intbl\keepn{\cell}
+\pard\plain\intbl\keepn{\cell}
+\pard\plain\intbl\keepn{\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx558
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2678
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx4399
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4823
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx5747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx6981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx8215
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx9414
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx11492
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{1\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Credit_score\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{99.3280\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{Values of Credit_score Were Replaced by Ranks\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx558
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2678
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx4399
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4823
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx5747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx6981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx8215
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx9414
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx11492
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{2\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Tot_mthly_debt_exp\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{2\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{52.4367\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{Values of Tot_mthly_debt_exp Were Replaced by Ranks\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx558
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2678
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx4399
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4823
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx5747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx6981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx8215
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx9414
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx11492
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{3\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{First_home\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{6.3314\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.0119\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx558
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2678
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx4399
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4823
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx5747
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx6981
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx8215
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx9414
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx11492
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{4\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Tot_mthly_incm\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{4\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1.8461\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.1742\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{Values of Tot_mthly_incm Were Replaced by Ranks\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx558
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2678
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx4399
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4823
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx5747
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx6981
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx8215
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx9414
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx11492
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{5\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Tot_mthly_incm\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1.8449\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.1744\cell}
+\pard\plain\intbl\keepn\sb60\sa60\ql\f1\fs20\cf1{Values of Tot_mthly_incm Were Replaced by Ranks\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX27}{\*\bkmkend IDX27}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx6998
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Analysis of Maximum Likelihood Estimates\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2130
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2554
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3528
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4550
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx5784
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx6998
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Parameter\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{DF\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Estimate\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Standard{\line}
+Error\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Wald{\line}
+Chi-Square\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Pr\~>\~ChiSq\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2130
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2554
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3528
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4550
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx5784
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx6998
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Intercept\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{2.2473\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.1136\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{391.3753\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2130
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2554
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3528
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4550
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx5784
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx6998
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{First_home\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.2911\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.1160\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{6.2973\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.0121\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2130
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2554
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3528
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4550
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx5784
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx6998
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Credit_score\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.1940\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.0197\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{97.3968\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2130
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2554
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3528
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4550
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx5784
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx6998
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Tot_mthly_debt_exp\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.1346\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.0184\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{53.6301\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{<.0001\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX28}{\*\bkmkend IDX28}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx5189
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Odds\~Ratio\~Estimates\cell}
+{\row}
+\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx2130
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx3104
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx5189
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Effect\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qr\f1\fs22\cf1{Point Estimate\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{95%\~Wald{\line}
+Confidence\~Limits\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2130
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3104
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4139
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx5189
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{First_home\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1.338\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1.066\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1.679\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2130
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3104
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4139
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx5189
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Credit_score\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1.214\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1.168\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{1.262\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2130
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx3104
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4139
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx5189
+\pard\plain\intbl\b\sb60\sa60\ql\f1\fs22\cf1{Tot_mthly_debt_exp\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{1.144\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{1.104\cell}
+\pard\plain\intbl\sb60\sa60\qr\f1\fs20\cf1{1.186\cell}
+{\row}
+\pard\pard\par\par{\*\bkmkstart IDX29}{\*\bkmkend IDX29}\trowd\trkeep\trhdr\trqc\trgaph60
+\clbrdrt\brdrs\brdrw15\brdrcf1\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalb\clcbpat17\cellx4628
+\pard\plain\intbl\keepn\b\sb60\sa60\qc\f1\fs22\cf1{Association of Predicted Probabilities and Observed Responses\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2073
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2912
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx4029
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4628
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Percent Concordant\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{66.7\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Somers' D\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.368\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2073
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2912
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx4029
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4628
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Percent Discordant\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{30.0\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Gamma\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.380\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2073
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2912
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx4029
+\clbrdrb\brdrs\brdrw5\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4628
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Percent Tied\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{3.3\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Tau-a\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.019\cell}
+{\row}
+\trowd\trkeep\trqc\trgaph60
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx2073
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx2912
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\cltxlrtb\clvertalt\clcbpat17\cellx4029
+\clbrdrb\brdrs\brdrw15\brdrcf1\clbrdrl\brdrs\brdrw5\brdrcf1\clbrdrr\brdrs\brdrw15\brdrcf1\cltxlrtb\clvertalt\clcbpat8\cellx4628
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{Pairs\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{5929902\cell}
+\pard\plain\intbl\keepn\b\sb60\sa60\ql\f1\fs22\cf1{c\cell}
+\pard\plain\intbl\keepn\sb60\sa60\qr\f1\fs20\cf1{0.684\cell}
+{\row}
+\pard}

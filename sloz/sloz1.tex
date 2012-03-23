@@ -1,12 +1,11 @@
-\documentclass[a4paper,10pt]{extarticle}
+\documentclass[a4wide,8pt]{extarticle}
 \usepackage[utf8]{inputenc}
 \usepackage[IL2]{fontenc}
 \usepackage{listings}
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{fullpage}
-%\topmargin -2cm%
-%\textheight 24cm
+%\usepackage{fullpage}
+\usepackage[top=15mm, bottom=15mm, left=15mm, right=15mm]{geometry}
 \setlength\parindent{0pt}
 \thispagestyle{empty}
 \begin{document}
@@ -62,6 +61,15 @@ UČO: 323771\\
 		Podle deterministické separace:\\
 		$DSPACE(n^4)\subsetneq DSPACE(n^5)$, tj. existuje $L$ takový, že $L\in DSPACE(n^5) \wedge L\notin DSPACE(n^4) \implies L\notin NTIME(n^2)$. QED
 	\item
-		 
+		Formuli v CNF lze sice na ekvivalentní v DNF převést, ale obecnně ne v polynomiálním čase.
+  \stepcounter{enumi}
+	\item
+		\begin{itemize}
+			\item Předpokládejme, že $x=y=z=1$. Pak jsou zřejmě splněny klauzule 1,2,3. Žádná z 4,5,6 splněna není. Pokud zvolíme $w=1$, jsou splněny také 7,8,9,10. Celkem 7.
+			\item Předpokládejme, že jsou pravdivé právě 2 z $x,y,z$. BÚNO $x=y=1, z=0$. Tím jsou splněny klauzule 1,2,4,5. Pokud zvolíme $w=1$, jsou splněny také 7,8,9. Celkem 7.
+			\item Předpokládejme, že je pravdivá právě 1 z $x,y,z$. BÚNO $x=1, y=z=0$. Splníme tím klauzule 1,4,5,6 a volbou $w=0$ také 8,9,10. Celkem 7.
+			\item Předpokládejme, že $x=y=z=0$. Pak volbou $w=1$ splníme klauzule 4,5,6,7, celkem 4. Volbou $w=0$ splníme klauzule 4,5,6,8,9,10, celkem 6.
+		\end{itemize}
+		Hledanou hodnotou je tedy $k=7$. Pokud je splněno aspoň jedno z $x,y,z$ v každé klauzuli z $\Phi$, lze podle předchozího schematu volit $w_i$ tak, aby bylo splněno právě $7n$ klauzulí $\overline{\Phi}$. Naopak pokud je splněno $7n$ klauzulí $\overline{\Phi}$, podle předchozího je aspoň jedno z $x,y,z$ každé klauzuli $\Phi$ také splněno.
 \end{enumerate}
 \end{document}
