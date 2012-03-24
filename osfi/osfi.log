@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.2.15)  24 MAR 2012 12:03
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.2.15)  24 MAR 2012 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -408,7 +408,42 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 Package babel Info: Making " an active character on input line 172.
 \cs@wordlen=\count109
 Package babel Info: Making - an active character on input line 226.
-)) (./osfi.aux)
+))
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count110
+\Gm@cntv=\count111
+\c@Gm@tempcnt=\count112
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks24
+)
+(/usr/share/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
+\pltopsep=\skip46
+\plpartopsep=\skip47
+\plitemsep=\skip48
+\plparsep=\skip49
+\pl@lab=\toks25
+) (./osfi.aux)
 \openout1 = `osfi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -425,31 +460,27 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
-\c@lstlisting=\count110
+\c@lstlisting=\count113
 
 (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen119
+\scratchcounter=\count114
+\scratchdimen=\dimen127
 \scratchbox=\box30
-\nofMPsegments=\count112
-\nofMParguments=\count113
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen120
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
-\everyMPtoPDFconversion=\toks25
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen128
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
 
 (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -487,74 +518,151 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<prf_logo.pdf, id=1, 289.08pt x 288.83911pt>
+File: prf_logo.pdf Graphic file (type pdf)
+ <use prf_logo.pdf>
+Package pdftex.def Info: prf_logo.pdf used on input line 22.
+(pdftex.def)             Requested size: 202.35461pt x 202.18599pt.
+ [0
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./prf_logo.pdf>] (./osfi.t
+oc
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for IL2+cmtt on input line 27.
+))
+\tf@toc=\write3
+\openout3 = `osfi.toc'.
 
-
-(/usr/share/texmf-dist/tex/latex/cslatex/il2cmtt.fd
-File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
-)
-<axa_czk_konto.png, id=1, 354.78pt x 271.38123pt>
-File: axa_czk_konto.png Graphic file (type png)
- <use axa_czk_konto.png>
-Package pdftex.def Info: axa_czk_konto.png used on input line 35.
-(pdftex.def)             Requested size: 234.00238pt x 179.00035pt.
-
-Underfull \hbox (badness 5741) in paragraph at lines 36--36
-[]\IL2/cmr/m/n/12 Obrázek 1: Graf zhod-no-cení AXA CZK Konto za 5 let zdroj:
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
+ [1]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
 
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
- [2 <./axa_czk_konto.png>]
-<axa_cee_dluh.png, id=17, 323.39pt x 234.50877pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+
+Overfull \hbox (1.24568pt too wide) in paragraph at lines 67--68
+[]\IL2/cmr/m/it/12 Dohled re-gu-lá-torù \IL2/cmr/m/n/12 - fondy ko-lek-tiv-ního
+ in-ves-to-vání pod-lé-hají re-gu-laci Èeské ná-rodní banky. 
+ []
+
+[2] <deleni.png, id=19, 993.7125pt x 324.21124pt>
+File: deleni.png Graphic file (type png)
+ <use deleni.png>
+Package pdftex.def Info: deleni.png used on input line 101.
+(pdftex.def)             Requested size: 483.69687pt x 157.81117pt.
+ [3 <./deleni.png>]
+LaTeX Font Info:    Try loading font information for IL2+cmtt on input line 121
+.
+ (/usr/share/texmf-dist/tex/latex/cslatex/il2cmtt.fd
+File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
+)
+<axa_czk_konto.png, id=23, 354.78pt x 271.38123pt>
+File: axa_czk_konto.png Graphic file (type png)
+ <use axa_czk_konto.png>
+Package pdftex.def Info: axa_czk_konto.png used on input line 129.
+(pdftex.def)             Requested size: 290.22107pt x 222.01642pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+[]\IL2/cmr/m/n/12 Obrázek 2: Graf zhod-no-cení AXA CZK Konto za 5 let zdroj:
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] <axa_cee_dluh.png, id=30, 323.39pt x 234.50877pt>
 File: axa_cee_dluh.png Graphic file (type png)
  <use axa_cee_dluh.png>
-Package pdftex.def Info: axa_cee_dluh.png used on input line 59.
-(pdftex.def)             Requested size: 234.00238pt x 169.69424pt.
+Package pdftex.def Info: axa_cee_dluh.png used on input line 152.
+(pdftex.def)             Requested size: 290.22107pt x 210.46193pt.
 
-<axa_cee_akc.png, id=18, 323.39pt x 234.50877pt>
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]\IL2/cmr/m/n/12 Obrázek 3: Graf zhod-no-cení AXA CEE Dlu-ho-pi-sový fond za 5
+ let zdroj:
+ []
+
+[5 <./axa_czk_konto.png> <./axa_cee_dluh.png>]
+<axa_cee_akc.png, id=34, 323.39pt x 234.50877pt>
 File: axa_cee_akc.png Graphic file (type png)
  <use axa_cee_akc.png>
-Package pdftex.def Info: axa_cee_akc.png used on input line 75.
-(pdftex.def)             Requested size: 234.00238pt x 169.69424pt.
- [3 <./axa_cee_dluh.png>] <graf_alokace_linii.png, id=22, 652.4375pt x 305.14pt
->
+Package pdftex.def Info: axa_cee_akc.png used on input line 168.
+(pdftex.def)             Requested size: 290.22107pt x 210.46193pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\IL2/cmr/m/n/12 Obrázek 4: Graf zhod-no-cení AXA CEE Ak-ci-ový fond za 5 let 
+zdroj:
+ []
+
+<graf_alokace_linii.png, id=35, 652.4375pt x 305.14pt>
 File: graf_alokace_linii.png Graphic file (type png)
 
 <use graf_alokace_linii.png>
-Package pdftex.def Info: graf_alokace_linii.png used on input line 87.
-(pdftex.def)             Requested size: 312.00119pt x 145.92542pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[]\IL2/cmr/m/n/12 Obrázek 4: Graf alo-kace li-nií Ren-tier In-vest zdroj:
- []
-
-<ri_cost.png, id=23, 400.04pt x 147.48979pt>
+Package pdftex.def Info: graf_alokace_linii.png used on input line 182.
+(pdftex.def)             Requested size: 386.95897pt x 180.98552pt.
+ <ri_cost.png, id=36, 400.04pt x 147.48979pt>
 File: ri_cost.png Graphic file (type png)
- <use ri_cost.png>
-Package pdftex.def Info: ri_cost.png used on input line 93.
-(pdftex.def)             Requested size: 312.00119pt x 115.03256pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
-[]\IL2/cmr/m/n/12 Obrázek 5: Po-platky Ren-tier In-vest zdroj:
+<use ri_cost.png>
+Package pdftex.def Info: ri_cost.png used on input line 188.
+(pdftex.def)             Requested size: 290.22107pt x 107.00275pt.
+ <ri_graf.png, id=37, 737.3pt x 412.23398pt>
+File: ri_graf.png Graphic file (type png)
+
+<use ri_graf.png>
+Package pdftex.def Info: ri_graf.png used on input line 194.
+(pdftex.def)             Requested size: 483.69687pt x 270.44609pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]\IL2/cmr/m/n/12 Obrázek 7: Vý-kon-nost Ren-tier In-vets v li-ni-ích 1 a 7 v p
+øí-padì
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+\IL2/cmr/m/n/12 jed-no-rá-zové a pra-vi-delné in-ves-tice od 6.5.2005 do 23.3.2
+012 zdroj:
  []
 
 
@@ -563,61 +671,53 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./axa_cee_akc.png>] [5 <./graf_alokace_linii.png> <./ri_cost.png>]
-<axa.pdf, id=31, 597.55246pt x 845.07718pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./axa_cee_akc.png>] [7 <./graf_alokace_linii.png> <./ri_cost.png> <./ri_gra
+f.png>] [8
+
+] <axa.pdf, id=49, 597.55246pt x 845.07718pt>
 File: axa.pdf Graphic file (type pdf)
  <use axa.pdf>
-Package pdftex.def Info: axa.pdf used on input line 101.
-(pdftex.def)             Requested size: 390.0pt x 551.56316pt.
+Package pdftex.def Info: axa.pdf used on input line 208.
+(pdftex.def)             Requested size: 483.69687pt x 684.07036pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
+Underfull \hbox (badness 10000) in paragraph at lines 207--210
 
  []
 
-[6
+[9
 
  <./axa.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-[]\IL2/cmr/m/n/12 Leták Po-dí-lové fondy AXA, [cit. 2012-03-23], Do-
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+\IL2/cmtt/m/n/12 http : / / www . axa . cz / getattachment / edb1852e-[]a78d-[]
+4c80-[]9515-[]55f0f1db5953 /
  []
 
+[10] (./osfi.aux)
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-\IL2/cmr/m/n/12 stupné z WWW: $\IL2/cmtt/m/n/12 http : / / www . axa . cz / get
-attachment /
- []
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Underfull \hbox (badness 6625) in paragraph at lines 112--113
-[]\IL2/cmr/m/n/12 Sazebník po-platkù AXA in-ves-tièní spo-leè-nost, a.s., [cit.
- 2012-
- []
-
-
-Underfull \hbox (badness 6157) in paragraph at lines 112--113
-\IL2/cmr/m/n/12 03-23], Do-stupné z WWW: $\IL2/cmtt/m/n/12 http : / / www . axa
- . cz / getattachment /
- []
-
-[7] (./osfi.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 4788 strings out of 493629
- 61129 string characters out of 3148778
- 120736 words of memory out of 3000000
- 7997 multiletter control sequences out of 15000+200000
- 17829 words of font info for 58 fonts, out of 3000000 for 9000
+ 5409 strings out of 493629
+ 70014 string characters out of 3148778
+ 139760 words of memory out of 3000000
+ 8597 multiletter control sequences out of 15000+200000
+ 17460 words of font info for 54 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  38i,8n,32p,620b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></usr/share/texmf-dist/fonts/type1/public/cs/csbx12.pfb></usr/share/texmf-d
-ist/fonts/type1/public/cs/csr12.pfb></usr/share/texmf-dist/fonts/type1/public/c
-s/csr17.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csr7.pfb></usr/share/t
-exmf-dist/fonts/type1/public/cs/csr8.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/cs/cstt10.pfb></usr/share/texmf-dist/fonts/type1/public/cs/cstt12.pfb>
-Output written on osfi.pdf (7 pages, 365748 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texmf-dist/fonts/type1/public/cs/csbx12.pfb></usr/share/texmf-dist/fonts/type1/
+public/cs/csr12.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csr7.pfb></usr
+/share/texmf-dist/fonts/type1/public/cs/csr8.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/cs/csti12.pfb></usr/share/texmf-dist/fonts/type1/public/cs/cstt10.p
+fb></usr/share/texmf-dist/fonts/type1/public/cs/cstt12.pfb>
+Output written on osfi.pdf (11 pages, 568653 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 147 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
