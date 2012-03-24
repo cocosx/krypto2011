@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.2.15)  23 MAR 2012 20:34
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.2.15)  24 MAR 2012 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,102 +506,118 @@ File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
 <axa_czk_konto.png, id=1, 354.78pt x 271.38123pt>
 File: axa_czk_konto.png Graphic file (type png)
  <use axa_czk_konto.png>
-Package pdftex.def Info: axa_czk_konto.png used on input line 37.
+Package pdftex.def Info: axa_czk_konto.png used on input line 35.
 (pdftex.def)             Requested size: 234.00238pt x 179.00035pt.
 
-Underfull \hbox (badness 5741) in paragraph at lines 38--38
+Underfull \hbox (badness 5741) in paragraph at lines 36--36
 []\IL2/cmr/m/n/12 Obrázek 1: Graf zhod-no-cení AXA CZK Konto za 5 let zdroj:
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
 
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
  [2 <./axa_czk_konto.png>]
 <axa_cee_dluh.png, id=17, 323.39pt x 234.50877pt>
 File: axa_cee_dluh.png Graphic file (type png)
  <use axa_cee_dluh.png>
-Package pdftex.def Info: axa_cee_dluh.png used on input line 62.
+Package pdftex.def Info: axa_cee_dluh.png used on input line 59.
 (pdftex.def)             Requested size: 234.00238pt x 169.69424pt.
 
 <axa_cee_akc.png, id=18, 323.39pt x 234.50877pt>
 File: axa_cee_akc.png Graphic file (type png)
  <use axa_cee_akc.png>
-Package pdftex.def Info: axa_cee_akc.png used on input line 77.
+Package pdftex.def Info: axa_cee_akc.png used on input line 75.
 (pdftex.def)             Requested size: 234.00238pt x 169.69424pt.
+ [3 <./axa_cee_dluh.png>] <graf_alokace_linii.png, id=22, 652.4375pt x 305.14pt
+>
+File: graf_alokace_linii.png Graphic file (type png)
+
+<use graf_alokace_linii.png>
+Package pdftex.def Info: graf_alokace_linii.png used on input line 87.
+(pdftex.def)             Requested size: 312.00119pt x 145.92542pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]\IL2/cmr/m/n/12 Obrázek 4: Graf alo-kace li-nií Ren-tier In-vest zdroj:
+ []
+
+<ri_cost.png, id=23, 400.04pt x 147.48979pt>
+File: ri_cost.png Graphic file (type png)
+ <use ri_cost.png>
+Package pdftex.def Info: ri_cost.png used on input line 93.
+(pdftex.def)             Requested size: 312.00119pt x 115.03256pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]\IL2/cmr/m/n/12 Obrázek 5: Po-platky Ren-tier In-vest zdroj:
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <./axa_cee_dluh.png>] [4 <./axa_cee_akc.png>]
-<axa.pdf, id=25, 597.55246pt x 845.07718pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./axa_cee_akc.png>] [5 <./graf_alokace_linii.png> <./ri_cost.png>]
+<axa.pdf, id=31, 597.55246pt x 845.07718pt>
 File: axa.pdf Graphic file (type pdf)
  <use axa.pdf>
-Package pdftex.def Info: axa.pdf used on input line 85.
+Package pdftex.def Info: axa.pdf used on input line 101.
 (pdftex.def)             Requested size: 390.0pt x 551.56316pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
-[5
+[6
 
-]
-Overfull \vbox (4.22649pt too high) has occurred while \output is active []
-
-
-[6 <./axa.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+ <./axa.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 []\IL2/cmr/m/n/12 Leták Po-dí-lové fondy AXA, [cit. 2012-03-23], Do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 \IL2/cmr/m/n/12 stupné z WWW: $\IL2/cmtt/m/n/12 http : / / www . axa . cz / get
 attachment /
  []
 
 
-Underfull \hbox (badness 6625) in paragraph at lines 96--97
+Underfull \hbox (badness 6625) in paragraph at lines 112--113
 []\IL2/cmr/m/n/12 Sazebník po-platkù AXA in-ves-tièní spo-leè-nost, a.s., [cit.
  2012-
  []
 
 
-Underfull \hbox (badness 6157) in paragraph at lines 96--97
+Underfull \hbox (badness 6157) in paragraph at lines 112--113
 \IL2/cmr/m/n/12 03-23], Do-stupné z WWW: $\IL2/cmtt/m/n/12 http : / / www . axa
  . cz / getattachment /
  []
 
-[7] (./osfi.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[7] (./osfi.aux) ) 
 Here is how much of TeX's memory you used:
- 4775 strings out of 493629
- 60896 string characters out of 3148778
- 120728 words of memory out of 3000000
- 7986 multiletter control sequences out of 15000+200000
+ 4788 strings out of 493629
+ 61129 string characters out of 3148778
+ 120736 words of memory out of 3000000
+ 7997 multiletter control sequences out of 15000+200000
  17829 words of font info for 58 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  38i,8n,32p,620b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texmf-dist/fonts/type1/public/cs/csbx12.pfb></usr/share/texmf-dist/fonts/type1/
-public/cs/csr12.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csr17.pfb></us
-r/share/texmf-dist/fonts/type1/public/cs/csr7.pfb></usr/share/texmf-dist/fonts/
-type1/public/cs/csr8.pfb></usr/share/texmf-dist/fonts/type1/public/cs/cstt10.pf
-b></usr/share/texmf-dist/fonts/type1/public/cs/cstt12.pfb>
-Output written on osfi.pdf (7 pages, 314004 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texmf-dist/fonts/type1/public/cs/csbx12.pfb></usr/share/texmf-d
+ist/fonts/type1/public/cs/csr12.pfb></usr/share/texmf-dist/fonts/type1/public/c
+s/csr17.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csr7.pfb></usr/share/t
+exmf-dist/fonts/type1/public/cs/csr8.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/cs/cstt10.pfb></usr/share/texmf-dist/fonts/type1/public/cs/cstt12.pfb>
+Output written on osfi.pdf (7 pages, 365748 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 130 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
