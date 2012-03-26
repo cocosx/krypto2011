@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.12pt}
+\select@language {czech}
+\beamer@sectionintoc {1}{Teoretick\IeC {\'a} \IeC {\v c}\IeC {\'a}st}{2}{0}{1}
+\beamer@sectionintoc {2}{Vybran\IeC {\'e} fondy v \IeC {\v C}esk\IeC {\'e} republice}{2}{0}{2}
+\beamer@subsubsectionintoc {2}{0}{1}{AXA CZK Konto}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Pioneer Asset Management, a.s. -- Rentier Invest}{9}{0}{2}
