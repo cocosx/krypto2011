@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.2.19)  26 MAR 2012 11:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.2.15)  27 MAR 2012 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1206,116 +1206,64 @@ Overfull \hbox (78.39948pt too wide) has occurred while \output is active
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package hyperref Warning: Composite letter `\textasciicaron+c'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 33.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+C'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 35.
-
-<axa_popl.png, id=41, 594.88364pt x 475.7775pt>
-File: axa_popl.png Graphic file (type png)
- <use axa_popl.png>
-Package pdftex.def Info: axa_popl.png used on input line 40.
-(pdftex.def)             Requested size: 273.83728pt x 219.01276pt.
-
-Overfull \vbox (1.94217pt too high) detected at line 40
- []
-
-
 Overfull \hbox (78.39948pt too wide) has occurred while \output is active
  [][]  \IL2/cmss/m/n/6 ([])  
  []
 
 [2
 
- <./axa_popl.png>]
-
-LaTeX Font Warning: Font shape `IL2/cmss/m/it' in size <10.95> not available
-(Font)              Font shape `IL2/cmss/m/sl' tried instead on input line 46.
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 46.
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 46.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-
-LaTeX Font Warning: Font shape `IL2/cmss/m/it' in size <8> not available
-(Font)              Font shape `IL2/cmss/m/sl' tried instead on input line 46.
-
-
-LaTeX Font Warning: Font shape `IL2/cmss/m/it' in size <6> not available
-(Font)              Font shape `IL2/cmss/m/sl' tried instead on input line 46.
-
-
-LaTeX Font Warning: Font shape `IL2/cmss/m/it' in size <9> not available
-(Font)              Font shape `IL2/cmss/m/sl' tried instead on input line 46.
-
-
-LaTeX Font Warning: Font shape `IL2/cmss/m/it' in size <5> not available
-(Font)              Font shape `IL2/cmss/m/sl' tried instead on input line 46.
-
-LaTeX Font Info:    Try loading font information for IL2+cmtt on input line 46.
-
-(/usr/share/texmf-dist/tex/latex/cslatex/il2cmtt.fd
-File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
-)
+]
 Overfull \hbox (78.39948pt too wide) has occurred while \output is active
  [][]  \IL2/cmss/m/n/6 ([])  
  []
 
 [3
 
-] <axa_czk_konto.png, id=58, 354.78pt x 271.38123pt>
-File: axa_czk_konto.png Graphic file (type png)
- <use axa_czk_konto.png>
-Package pdftex.def Info: axa_czk_konto.png used on input line 52.
-(pdftex.def)             Requested size: 239.60567pt x 183.28622pt.
-
+]
 Overfull \hbox (78.39948pt too wide) has occurred while \output is active
  [][]  \IL2/cmss/m/n/6 ([])  
  []
 
 [4
 
- <./axa_czk_konto.png>]
+]
+
+LaTeX Font Warning: Font shape `IL2/cmss/m/it' in size <10.95> not available
+(Font)              Font shape `IL2/cmss/m/sl' tried instead on input line 92.
+
+
 Overfull \hbox (78.39948pt too wide) has occurred while \output is active
  [][]  \IL2/cmss/m/n/6 ([])  
  []
 
 [5
 
-] <axa_cee_dluh.png, id=74, 323.39pt x 234.50877pt>
-File: axa_cee_dluh.png Graphic file (type png)
- <use axa_cee_dluh.png>
-Package pdftex.def Info: axa_cee_dluh.png used on input line 72.
-(pdftex.def)             Requested size: 239.60567pt x 173.7592pt.
-
+]
 Overfull \hbox (78.39948pt too wide) has occurred while \output is active
  [][]  \IL2/cmss/m/n/6 ([])  
  []
 
 [6
 
- <./axa_cee_dluh.png>]
+]
 Overfull \hbox (78.39948pt too wide) has occurred while \output is active
  [][]  \IL2/cmss/m/n/6 ([])  
  []
 
 [7
 
-] <axa_cee_akc.png, id=89, 323.39pt x 234.50877pt>
-File: axa_cee_akc.png Graphic file (type png)
- <use axa_cee_akc.png>
-Package pdftex.def Info: axa_cee_akc.png used on input line 84.
-(pdftex.def)             Requested size: 239.60567pt x 173.7592pt.
+] <deleni.png, id=86, 993.7125pt x 324.21124pt>
+File: deleni.png Graphic file (type png)
+ <use deleni.png>
+Package pdftex.def Info: deleni.png used on input line 134.
+(pdftex.def)             Requested size: 342.2953pt x 111.67984pt.
+
+
+LaTeX Warning: Citation `dp' on page 8 undefined on input line 134.
+
+
+LaTeX Warning: Citation `dp' on page 8 undefined on input line 134.
+
 
 Overfull \hbox (78.39948pt too wide) has occurred while \output is active
  [][]  \IL2/cmss/m/n/6 ([])  
@@ -1323,44 +1271,173 @@ Overfull \hbox (78.39948pt too wide) has occurred while \output is active
 
 [8
 
- <./axa_cee_akc.png>] <graf_alokace_linii.png, id=96, 652.4375pt x 305.14pt>
-File: graf_alokace_linii.png Graphic file (type png)
-
-<use graf_alokace_linii.png>
-Package pdftex.def Info: graf_alokace_linii.png used on input line 91.
-(pdftex.def)             Requested size: 308.06367pt x 144.08162pt.
-
+ <./deleni.png>]
 Overfull \hbox (78.39948pt too wide) has occurred while \output is active
  [][]  \IL2/cmss/m/n/6 ([])  
  []
 
 [9
 
- <./graf_alokace_linii.png>] <ri_cost.png, id=104, 400.04pt x 147.48979pt>
-File: ri_cost.png Graphic file (type png)
-
-<use ri_cost.png>
-Package pdftex.def Info: ri_cost.png used on input line 97.
-(pdftex.def)             Requested size: 308.06367pt x 113.58098pt.
-
+]
 Overfull \hbox (78.39948pt too wide) has occurred while \output is active
  [][]  \IL2/cmss/m/n/6 ([])  
  []
 
 [10
 
- <./ri_cost.png>] <ri_graf.png, id=111, 737.3pt x 412.23398pt>
-File: ri_graf.png Graphic file (type png)
+]
 
-<use ri_graf.png>
-Package pdftex.def Info: ri_graf.png used on input line 103.
-(pdftex.def)             Requested size: 342.2953pt x 191.38487pt.
+Package hyperref Warning: Composite letter `\textasciicaron+C'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 176.
+
+<axa_popl.png, id=106, 594.88364pt x 475.7775pt>
+File: axa_popl.png Graphic file (type png)
+ <use axa_popl.png>
+Package pdftex.def Info: axa_popl.png used on input line 181.
+(pdftex.def)             Requested size: 273.83728pt x 219.01276pt.
+
+Overfull \vbox (1.94217pt too high) detected at line 181
+ []
+
 
 Overfull \hbox (78.39948pt too wide) has occurred while \output is active
  [][]  \IL2/cmss/m/n/6 ([])  
  []
 
 [11
+
+ <./axa_popl.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 187.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 187.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+
+LaTeX Font Warning: Font shape `IL2/cmss/m/it' in size <8> not available
+(Font)              Font shape `IL2/cmss/m/sl' tried instead on input line 187.
+
+
+
+LaTeX Font Warning: Font shape `IL2/cmss/m/it' in size <6> not available
+(Font)              Font shape `IL2/cmss/m/sl' tried instead on input line 187.
+
+
+
+LaTeX Font Warning: Font shape `IL2/cmss/m/it' in size <9> not available
+(Font)              Font shape `IL2/cmss/m/sl' tried instead on input line 187.
+
+
+
+LaTeX Font Warning: Font shape `IL2/cmss/m/it' in size <5> not available
+(Font)              Font shape `IL2/cmss/m/sl' tried instead on input line 187.
+
+
+LaTeX Font Info:    Try loading font information for IL2+cmtt on input line 187
+.
+(/usr/share/texmf-dist/tex/latex/cslatex/il2cmtt.fd
+File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
+)
+Overfull \hbox (78.39948pt too wide) has occurred while \output is active
+ [][]  \IL2/cmss/m/n/6 ([])  
+ []
+
+[12
+
+] <axa_czk_konto.png, id=122, 354.78pt x 271.38123pt>
+File: axa_czk_konto.png Graphic file (type png)
+
+<use axa_czk_konto.png>
+Package pdftex.def Info: axa_czk_konto.png used on input line 193.
+(pdftex.def)             Requested size: 239.60567pt x 183.28622pt.
+
+Overfull \hbox (78.39948pt too wide) has occurred while \output is active
+ [][]  \IL2/cmss/m/n/6 ([])  
+ []
+
+[13
+
+ <./axa_czk_konto.png>]
+Overfull \hbox (78.39948pt too wide) has occurred while \output is active
+ [][]  \IL2/cmss/m/n/6 ([])  
+ []
+
+[14
+
+] <axa_cee_dluh.png, id=137, 323.39pt x 234.50877pt>
+File: axa_cee_dluh.png Graphic file (type png)
+ <use axa_cee_dluh.png>
+Package pdftex.def Info: axa_cee_dluh.png used on input line 213.
+(pdftex.def)             Requested size: 239.60567pt x 173.7592pt.
+
+Overfull \hbox (78.39948pt too wide) has occurred while \output is active
+ [][]  \IL2/cmss/m/n/6 ([])  
+ []
+
+[15
+
+ <./axa_cee_dluh.png>]
+Overfull \hbox (78.39948pt too wide) has occurred while \output is active
+ [][]  \IL2/cmss/m/n/6 ([])  
+ []
+
+[16
+
+] <axa_cee_akc.png, id=151, 323.39pt x 234.50877pt>
+File: axa_cee_akc.png Graphic file (type png)
+ <use axa_cee_akc.png>
+Package pdftex.def Info: axa_cee_akc.png used on input line 225.
+(pdftex.def)             Requested size: 239.60567pt x 173.7592pt.
+
+Overfull \hbox (78.39948pt too wide) has occurred while \output is active
+ [][]  \IL2/cmss/m/n/6 ([])  
+ []
+
+[17
+
+ <./axa_cee_akc.png>]
+<graf_alokace_linii.png, id=159, 652.4375pt x 305.14pt>
+File: graf_alokace_linii.png Graphic file (type png)
+
+<use graf_alokace_linii.png>
+Package pdftex.def Info: graf_alokace_linii.png used on input line 232.
+(pdftex.def)             Requested size: 308.06367pt x 144.08162pt.
+
+Overfull \hbox (78.39948pt too wide) has occurred while \output is active
+ [][]  \IL2/cmss/m/n/6 ([])  
+ []
+
+[18
+
+ <./graf_alokace_linii.png>] <ri_cost.png, id=168, 400.04pt x 147.48979pt>
+File: ri_cost.png Graphic file (type png)
+
+<use ri_cost.png>
+Package pdftex.def Info: ri_cost.png used on input line 238.
+(pdftex.def)             Requested size: 308.06367pt x 113.58098pt.
+
+Overfull \hbox (78.39948pt too wide) has occurred while \output is active
+ [][]  \IL2/cmss/m/n/6 ([])  
+ []
+
+[19
+
+ <./ri_cost.png>] <ri_graf.png, id=176, 737.3pt x 412.23398pt>
+File: ri_graf.png Graphic file (type png)
+
+<use ri_graf.png>
+Package pdftex.def Info: ri_graf.png used on input line 244.
+(pdftex.def)             Requested size: 342.2953pt x 191.38487pt.
+
+Overfull \hbox (78.39948pt too wide) has occurred while \output is active
+ [][]  \IL2/cmss/m/n/6 ([])  
+ []
+
+[20
 
  <./ri_graf.png>]
 \tf@nav=\write6
@@ -1372,35 +1449,54 @@ Overfull \hbox (78.39948pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `prez.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
  (./prez.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
-Package rerunfilecheck Info: File `prez.out' has not changed.
-(rerunfilecheck)             Checksum: 3EF0C62BA2FD73E93DD73D2647CF2458;227.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
 
+
+Package rerunfilecheck Warning: File `prez.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `prez.out':
+(rerunfilecheck)             Before: DE376E3E570B0D25915EDFE797E6E5B0;264
+(rerunfilecheck)             After:  16E2C166AEC79D6515A0C42382C576E3;172.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 18596 strings out of 493629
- 331243 string characters out of 3148778
+ 18721 strings out of 493629
+ 333793 string characters out of 3148778
  414928 words of memory out of 3000000
- 21405 multiletter control sequences out of 15000+200000
- 17603 words of font info for 55 fonts, out of 3000000 for 9000
+ 21507 multiletter control sequences out of 15000+200000
+ 19221 words of font info for 58 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 49i,16n,55p,601b,686s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/share/texmf-dis
-t/fonts/type1/public/cs/csss12.pfb></usr/share/texmf-dist/fonts/type1/public/cs
-/csss8.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csssi10.pfb></usr/share
-/texmf-dist/fonts/type1/public/cs/cstt9.pfb>
-Output written on prez.pdf (11 pages, 308090 bytes).
+ 49i,16n,55p,601b,685s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Navigation21} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.3.1.19} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.3} has been referenced but does not exist,
+ replaced by a fixed one
+
+</usr/share/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/share/texmf-dist/
+fonts/type1/public/cs/csss12.pfb></usr/share/texmf-dist/fonts/type1/public/cs/c
+sss8.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csssbx10.pfb></usr/share/
+texmf-dist/fonts/type1/public/cs/csssi10.pfb></usr/share/texmf-dist/fonts/type1
+/public/cs/cstt9.pfb>
+Output written on prez.pdf (20 pages, 342137 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
