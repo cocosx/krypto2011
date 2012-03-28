@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.2.15)  27 MAR 2012 19:27
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.2.15)  28 MAR 2012 08:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1252,7 +1252,7 @@ Overfull \hbox (78.39948pt too wide) has occurred while \output is active
 
 [7
 
-] <deleni.png, id=86, 993.7125pt x 324.21124pt>
+] <deleni.png, id=82, 993.7125pt x 324.21124pt>
 File: deleni.png Graphic file (type png)
  <use deleni.png>
 Package pdftex.def Info: deleni.png used on input line 134.
@@ -1291,7 +1291,7 @@ Package hyperref Warning: Composite letter `\textasciicaron+C'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 176.
 
-<axa_popl.png, id=106, 594.88364pt x 475.7775pt>
+<axa_popl.png, id=102, 594.88364pt x 475.7775pt>
 File: axa_popl.png Graphic file (type png)
  <use axa_popl.png>
 Package pdftex.def Info: axa_popl.png used on input line 181.
@@ -1348,7 +1348,7 @@ Overfull \hbox (78.39948pt too wide) has occurred while \output is active
 
 [12
 
-] <axa_czk_konto.png, id=122, 354.78pt x 271.38123pt>
+] <axa_czk_konto.png, id=118, 354.78pt x 271.38123pt>
 File: axa_czk_konto.png Graphic file (type png)
 
 <use axa_czk_konto.png>
@@ -1368,7 +1368,7 @@ Overfull \hbox (78.39948pt too wide) has occurred while \output is active
 
 [14
 
-] <axa_cee_dluh.png, id=137, 323.39pt x 234.50877pt>
+] <axa_cee_dluh.png, id=133, 323.39pt x 234.50877pt>
 File: axa_cee_dluh.png Graphic file (type png)
  <use axa_cee_dluh.png>
 Package pdftex.def Info: axa_cee_dluh.png used on input line 213.
@@ -1387,7 +1387,7 @@ Overfull \hbox (78.39948pt too wide) has occurred while \output is active
 
 [16
 
-] <axa_cee_akc.png, id=151, 323.39pt x 234.50877pt>
+] <axa_cee_akc.png, id=147, 323.39pt x 234.50877pt>
 File: axa_cee_akc.png Graphic file (type png)
  <use axa_cee_akc.png>
 Package pdftex.def Info: axa_cee_akc.png used on input line 225.
@@ -1400,7 +1400,7 @@ Overfull \hbox (78.39948pt too wide) has occurred while \output is active
 [17
 
  <./axa_cee_akc.png>]
-<graf_alokace_linii.png, id=159, 652.4375pt x 305.14pt>
+<graf_alokace_linii.png, id=155, 652.4375pt x 305.14pt>
 File: graf_alokace_linii.png Graphic file (type png)
 
 <use graf_alokace_linii.png>
@@ -1413,7 +1413,7 @@ Overfull \hbox (78.39948pt too wide) has occurred while \output is active
 
 [18
 
- <./graf_alokace_linii.png>] <ri_cost.png, id=168, 400.04pt x 147.48979pt>
+ <./graf_alokace_linii.png>] <ri_cost.png, id=163, 400.04pt x 147.48979pt>
 File: ri_cost.png Graphic file (type png)
 
 <use ri_cost.png>
@@ -1426,7 +1426,7 @@ Overfull \hbox (78.39948pt too wide) has occurred while \output is active
 
 [19
 
- <./ri_cost.png>] <ri_graf.png, id=176, 737.3pt x 412.23398pt>
+ <./ri_cost.png>] <ri_graf.png, id=171, 737.3pt x 412.23398pt>
 File: ri_graf.png Graphic file (type png)
 
 <use ri_graf.png>
@@ -1454,15 +1454,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
  (./prez.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
+Package rerunfilecheck Info: File `prez.out' has not changed.
+(rerunfilecheck)             Checksum: 16E2C166AEC79D6515A0C42382C576E3;172.
 
-
-Package rerunfilecheck Warning: File `prez.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `prez.out':
-(rerunfilecheck)             Before: DE376E3E570B0D25915EDFE797E6E5B0;264
-(rerunfilecheck)             After:  16E2C166AEC79D6515A0C42382C576E3;172.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1472,31 +1466,22 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18721 strings out of 493629
- 333793 string characters out of 3148778
+ 18712 strings out of 493629
+ 333704 string characters out of 3148778
  414928 words of memory out of 3000000
- 21507 multiletter control sequences out of 15000+200000
+ 21501 multiletter control sequences out of 15000+200000
  19221 words of font info for 58 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  49i,16n,55p,601b,685s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Navigation21} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.3.1.19} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.3} has been referenced but does not exist,
- replaced by a fixed one
-
-</usr/share/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/share/texmf-dist/
-fonts/type1/public/cs/csss12.pfb></usr/share/texmf-dist/fonts/type1/public/cs/c
-sss8.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csssbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/cs/csssi10.pfb></usr/share/texmf-dist/fonts/type1
-/public/cs/cstt9.pfb>
-Output written on prez.pdf (20 pages, 342137 bytes).
+</usr/share/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/share/texmf-dis
+t/fonts/type1/public/cs/csss12.pfb></usr/share/texmf-dist/fonts/type1/public/cs
+/csss8.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csssbx10.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/cs/csssi10.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/cs/cstt9.pfb>
+Output written on prez.pdf (20 pages, 342017 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 211 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
