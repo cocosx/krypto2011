@@ -1,0 +1,75 @@
+\documentclass[xcolor=dvipsnames]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage[czech]{babel}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{subfigure}
+%\useoutertheme[subsection=false]{smoothbars}
+\usetheme{Madrid}
+\usecolortheme[named=OliveGreen]{structure}
+%\usecolortheme[named=OliveGreen]{structure} 
+%\usetheme[height=7mm]{Rochester} 
+%\setbeamertemplate{items}[ball] 
+%\setbeamertemplate{blocks}[rounded][shadow=true] 
+%\useoutertheme{umbcfootline}
+\beamertemplatenavigationsymbolsempty 
+\addtobeamertemplate{block begin}{%
+  \setlength{\textwidth}{0.9\textwidth}%
+}{}
+
+
+\title{Experimentální finanční trh}
+\author{Marek Bryša}
+\institute
+{
+Masarykova Univerzita\\
+Přírodovědecká fakulta
+}
+\begin{document}
+  \frame{\titlepage}
+\begin{frame}{Cíl}
+	\begin{center}
+	\begin{minipage}{10cm}
+	\begin{block}{Cíl práce}
+	Analyzovat vliv obchodních strategií na tržní cenu málo obchodovaných aktiv a tvorbu cenových bublin.
+	\end{block}	
+	\end{minipage}
+	\end{center}
+
+\end{frame}
+\begin{frame}{Metoda}
+	\begin{enumerate}
+		\item 
+			Analýza dostupných data z ekonomického experimentu \emph{finanční trh}.
+		\item
+			Vytvoření softwarových agentů podle zjištěných obchodních strategií.
+			\begin{itemize}
+				\item Neuronové sítě
+				\item "Regrese na konečný automat"
+				\item Manuálně
+			\end{itemize}
+		 \item
+		 	Simulace experimentu s různými poměry obchodních strategií a zpětná kontrola s dostupnými reálnými daty.
+		 \item Statistická analýza naměřených hodnot, vyvození předbežných závěrů.
+		 \item Provedení experimentu v kombinaci softwarových a lidských agentu podle předchozího.
+		 \item Vyvození závěrů z ekonomické a statistické analýzy získaných dat.
+	\end{enumerate}
+\end{frame}
+\begin{frame}{Literatura}
+	\begin{itemize}
+	
+\item Neural networks for economic and financial modelling
+\item Software agents and market (in) efficiency: a human trader experiment, 
+\item Agent-based models and human subject experiments
+\item An adaptive agent based economic model
+\item Simulating the madness of crowds: Price bubbles in an auction-mediated robot market,
+\item Expectations and bubbles in asset pricing experiments
+	\end{itemize}
+\end{frame}
+\end{document}

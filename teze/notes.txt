@@ -1,0 +1,6 @@
+Neural networks for economic and financial modelling, http://web.econ.unito.it/terna/deposito/ct_1996.pdf
+Software agents and market (in) efficiency: a human trader experiment, http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.92.1565&rep=rep1&type=pdf
+Agent-based models and human subject experiments, http://subversion.assembla.com/svn/educationmarket/literature/handbookOfACE/Chapter%2019.pdf
+An adaptive agent based economic model, http://vmg.pp.ua/books/%D0%9A%D0%BE%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D1%8B%D0%98%D1%81%D0%B5%D1%82%D0%B8/_Lecture%20Notes%20in%20Computer%20Science/learning/Learning%20Classifier%20Systems(LNCS1813,%20Springer,%202000)(ISBN%203540677291)(344s)_CsLn_.pdf#page=262
+Simulating the madness of crowds: Price bubbles in an auction-mediated robot market, http://multiagent.martinsewell.com/StSh97.pdf
+Expectations and bubbles in asset pricing experiments, http://dare.uva.nl/document/127769
