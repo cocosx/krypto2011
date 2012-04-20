@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.2.15)  17 APR 2012 17:22
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.2.15)  20 APR 2012 09:46
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1283,7 +1283,7 @@ Here is how much of TeX's memory you used:
 </usr/share/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/share/texmf-dis
 t/fonts/type1/public/cs/csss12.pfb></usr/share/texmf-dist/fonts/type1/public/cs
 /csss8.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on teze.pdf (4 pages, 33164 bytes).
+Output written on teze.pdf (4 pages, 32975 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
