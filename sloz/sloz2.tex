@@ -16,6 +16,24 @@ UČO: 323771\\
 \end{flushleft}
 \begin{enumerate}
   \item
-		Redukcí z 3-SAT. Stroj $M$ pro jazyk $H$ má jako vstup kódování 3-SAT forumule $\varphi$. Vyzkouší všech $2^n$ vstupů na formuli $\varphi$, a pokud je pro některý splněna, akceptuje, jinak cyklí. 
+		Redukcí z 3-SAT. Stroj $M$ pro jazyk $H$ má jako vstup kódování 3-SAT forumule $\varphi$. Vyzkouší všech $2^n$ vstupů na formuli $\varphi$, a pokud je pro některý splněna, akceptuje, jinak cyklí. To samo o sobě nemá polynomiální složitost, ale redukční funkce pouze $f$ generuje kód stroje $M$ a to zvládne lineárně vzhledem k velikosti forumule $\varphi$. QED
+	\item
+	\item
+		Problém černého cyklu (BC) je NP-úplný.
+		\begin{itemize}
+			\item BC $\in$ NP: Analogicky jako HAM se algoritmus nedeterministicky rozhodne pro počateční vrchol a navazující vrcholy a kontroluje splnění podmínky.
+			\item
+				BC je NP-těžký: Redukcí z HAM\\
+				$f$ přidá ke grafu $G(v,e)$ $|v|$ dalších samostatně ležících vrcholů, popř. k některému vrcholu připojí "had" délky $|v|$. $f$ je lineární vzhledem k velikosti $G$.\\
+				$G\in$HAM $\Rightarrow f(G)\in$BC: Pokud byl v $G$ ham. cyklus, bude v $f(G)$ zřejmě právě jeden černý cyklus, a to ten, který byl v $G$ hamiltonovský.\\
+				$G\in$HAM $\Leftarrow f(G)\in$BC: Ten jediný černý cyklus v $f(G)$ bude zároveň hamiltonovský v $G$.
+				
+		\end{itemize}
+		 QED
+	\item
+	\item
+		$f$ přidá ke $G$ kliku velikosti 6 a spojí 3 její vrcholy se všemi vrcholy $G$. Pro každý vrchol $G$ tedy zbudou právě 3 možné barvy. $f$ je lineární vzhledem k velikosti $G$. Implikace "$\Rightarrow$" i "$\Leftarrow$" zřejmě platí. QED
+	\item
+		
 \end{enumerate}
 \end{document}

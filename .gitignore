@@ -1,4 +1,7 @@
 *~
 *.swp
 *.swo
-
+*.lock
+*.DS_Store
+*.swp
+*.out
