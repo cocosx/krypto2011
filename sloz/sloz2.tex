@@ -10,9 +10,7 @@
 \thispagestyle{empty}
 \begin{document}
 \begin{flushleft}
-Sada: 1 \\ 
-Jméno: Marek Bryša \\
-UČO: 323771\\
+Sada 2, Marek Bryša, 323771
 \end{flushleft}
 \begin{enumerate}
   \item
@@ -34,6 +32,12 @@ UČO: 323771\\
 	\item
 		$f$ přidá ke $G$ kliku velikosti 6 a spojí 3 její vrcholy se všemi vrcholy $G$. Pro každý vrchol $G$ tedy zbudou právě 3 možné barvy. $f$ je lineární vzhledem k velikosti $G$. Implikace "$\Rightarrow$" i "$\Leftarrow$" zřejmě platí. QED
 	\item
-		
+		Redukcí z HAM. SHAM $\in$ NP zřejmě -- oproti HAM stačí navíc nedeterministicky volit hranu, která jako jediná dostane ohodnocení 1, zbylé 0. $f$ provede jedno z:
+		\begin{enumerate}
+			\item Pokud v $G$ existuje osamocený vrchol nebo vrchol s jen jednou hranou, nedělá nic, protože takový graf nemá HC, tedy ani SHC.
+			\item Pokud v $G$ existuje vrchol se dvěma hranami, jedné z nich dá ohodnocení 1, všem zbylým 0, neboť pokud v $G$ HC existuje, musí jednou z těchto hran procházet.
+			\item Pokud v $G$ mají všechny vrcholy minimálně 3 a více hran, vybere "náhodně" jeden vrchol $v$ s nejmenším počtem hran a rozdělí ho na 2 vrcholy $v_1, v_2$ spojené jednou hranou a oba dále spojí se všemí vrcholy, se kterými byl spojen $v$. Hraně spojující $v_1, v_2$ přiřadí ohodnocení 1, všem ostatním 0. Pokud v $G$ existoval HC, musel procházet vrcholem $v$. Nyní SHC v $f(G)$ musí procházet hranou spojující $v_1, v_2$.
+		\end{enumerate}
+		$f$ je lineární vzhledem k velikosti $G$. Korektnost obou implikací redukce pro body (a), (b) je zřejmá z předchozí argumentace a toho, že neměníme strukturu grafu. U (c) byla zdůvodněna implikace "$\Rightarrow$". Zbývá vsvětlit "$\Leftarrow$", tedy že rozdělením vrcholu $v$ na dva nevznikne HC, který v původním $G$ nebyl. Může sice vzniknout, ale nebude obsahovat hranu mezi $v_1, v_2$ s ohodnocením 1, tudíž nebude SHC. Tuto hranu nebude obsahovat, protože jinak by měl i původní graf HC.
 \end{enumerate}
 \end{document}
