@@ -16,6 +16,7 @@ Sada 2, Marek Bryša, 323771
   \item
 		Redukcí z 3-SAT. Stroj $M$ pro jazyk $H$ má jako vstup kódování 3-SAT forumule $\varphi$. Vyzkouší všech $2^n$ vstupů na formuli $\varphi$, a pokud je pro některý splněna, akceptuje, jinak cyklí. To samo o sobě nemá polynomiální složitost, ale redukční funkce pouze $f$ generuje kód stroje $M$ a to zvládne lineárně vzhledem k velikosti forumule $\varphi$. QED
 	\item
+		Existuje polynomiální algoritmus. Za univerzálně kvantifikované proměnné dosadí 0, za existenčně kvantifikové 1 a vyhodnotí formuli. Platnost tohoto postupu lze ověřit při kvantifikaci $\exists e_1,e_2 \forall u_1,u_2$ na formulích $e_1 \wedge e_1, e_1 \vee e_1, e_1 \wedge e_2, e_1 \vee e_2, u_1 \wedge u_1, \dots, u_1 \wedge e_1, \dots$, přičemž složitější formule plynou ze strukturální indukce.
 	\item
 		Problém černého cyklu (BC) je NP-úplný.
 		\begin{itemize}
