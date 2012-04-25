@@ -1,4 +1,4 @@
-\documentclass[a4wide,12pt]{extarticle}
+\documentclass[a4wide,10pt]{extarticle}
 \usepackage[utf8]{inputenc}
 \usepackage[IL2]{fontenc}
 \usepackage{listings}
@@ -28,10 +28,16 @@ Sada 2, Marek Bryša, 323771
 				$G\in$HAM $\Leftarrow f(G)\in$BC: Ten jediný černý cyklus v $f(G)$ bude zároveň hamiltonovský v $G$.
 				
 		\end{itemize}
-		 QED
 	\item
+		Kameny $\in$ NP: Algoritmus nedeterministicky volí následující tah a kontroluje výhru. Pro každý tah musí zvolit z $|v|$ vrcholů a max. $|e|$ hran, tedy je celkově NP.\\
+		Kameny je NP-těžký: Redukcí z HAM. $f$ zvolí "náhodně" vrchol $v_0$ z $G(v,e)$ s nejmenším počtem navazujících hran a provede:
+		\begin{enumerate}
+			\item Pokud $v_0$ má max. jednu hranu, $G\not\in $ HAM, tedy na všechny vrcholy umístí 0 kamenů.
+			\item Pokud $v_0$ má 2 a více hran, přidá 2 vrcholy $v_1,v_2$ spojené hranou, spojí $v_1$ se sousedy $v_0$, umístí na $v_0$ 2 kameny, na ostatní včetně $v_1,v_2$ jeden kámen.
+		\end{enumerate}
+		V případě (b) je zajištěno, že hra začne ve $v_0$, protože má jako jediný 2 kameny a bude pokračovat na další vrcholy, přičemž každý navštíví max. jednou. Pokud $G\in$ HAM, existuje taková posloupnost tahů, že se  hra vrátí do sousedů $v_0$, pokračuje do $v_1$ a skončí úspěšně ve $v_2$. Naopak taková úspěšná hra je svědkem existence HC v $G$. Přidané "přemostění" (soused $v_0\leftrightarrow v_1 \leftrightarrow $ jiný soused $v_0$) na tom nic nemění díky přidání "ocasu" $v_2$. $f$ je vzhledem k velikosti $G$ zřejmě lineární.
 	\item
-		$f$ přidá ke $G$ kliku velikosti 6 a spojí 3 její vrcholy se všemi vrcholy $G$. Pro každý vrchol $G$ tedy zbudou právě 3 možné barvy. $f$ je lineární vzhledem k velikosti $G$. Implikace "$\Rightarrow$" i "$\Leftarrow$" zřejmě platí. QED
+		$f$ přidá ke $G$ kliku velikosti 6 a spojí 3 její vrcholy se všemi vrcholy $G$. Pro každý vrchol $G$ tedy zbudou právě 3 možné barvy. $f$ je lineární vzhledem k velikosti $G$. Implikace "$\Rightarrow$" i "$\Leftarrow$" zřejmě platí.
 	\item
 		Redukcí z HAM. SHAM $\in$ NP zřejmě -- oproti HAM stačí navíc nedeterministicky volit hranu, která jako jediná dostane ohodnocení 1, zbylé 0. $f$ provede jedno z:
 		\begin{enumerate}
