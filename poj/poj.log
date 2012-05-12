@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.5.7)  12 MAY 2012 16:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2012.5.7)  12 MAY 2012 19:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -625,7 +625,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write3
 \openout3 = `poj.out'.
 
- <sci-logo.pdf, id=33, 314.17375pt x 313.17pt>
+ <sci-logo.pdf, id=45, 314.17375pt x 313.17pt>
 File: sci-logo.pdf Graphic file (type pdf)
  <use sci-logo.pdf>
 Package pdftex.def Info: sci-logo.pdf used on input line 26.
@@ -661,7 +661,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 
 LaTeX Font Warning: Font shape `IL2/ppl/m/sl' in size <12> not available
-(Font)              Font shape `IL2/ppl/m/it' tried instead on input line 6.
+(Font)              Font shape `IL2/ppl/m/it' tried instead on input line 3.
 
 )
 \tf@toc=\write4
@@ -672,21 +672,48 @@ LaTeX Font Warning: Font shape `IL2/ppl/m/sl' in size <12> not available
 
 ]
 Kapitola 1.
-[2
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 39.
+(/usr/share/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+
+Overfull \hbox (12.37668pt too wide) in paragraph at lines 49--50
+\IL2/ppl/m/n/12 Dohled v Èeské re-pub-lice se øídí pøe-de-v¹ím vy-hlá¹-kou ÈNB 
+è. 434/2009,
+ []
+
+
+Underfull \vbox (badness 4193) has occurred while \output is active []
+
+ [2
 
 ]
-Kapitola 2.
-[3
 
-]
-Kapitola 3.
+Package hyperref Warning: Composite letter `\textasciicaron+R'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 65.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+r'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 74.
+
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 36.
+(hyperref)                removing `\textasciicaron' on input line 74.
+
+[3]
+Kapitola 2.
+
+Package hyperref Warning: Composite letter `\textasciicaron+e'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 76.
 
 
-Overfull \hbox (6.43373pt too wide) in paragraph at lines 37--39
+Overfull \hbox (6.43373pt too wide) in paragraph at lines 77--79
 [][][] \IL2/ppl/m/n/12 Zá-kladní me-to-dou ana-ly-zo-vání a vy-ka-zo-vání sol-v
 ent-nosti po-ji¹»ovny
  []
@@ -694,50 +721,50 @@ ent-nosti po-ji¹»ovny
 [4
 
 ] [5]
-Kapitola 4.
+Kapitola 3.
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 70.
+(hyperref)                removing `\textasciicaron' on input line 110.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+C'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 72.
+(hyperref)                removing `\textasciicaron' on input line 112.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+t'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 72.
+(hyperref)                removing `\textasciicaron' on input line 112.
 
-<cp-vlk.png, id=79, 1309.89375pt x 370.38374pt>
+<cp-vlk.png, id=95, 1309.89375pt x 370.38374pt>
 File: cp-vlk.png Graphic file (type png)
  <use cp-vlk.png>
-Package pdftex.def Info: cp-vlk.png used on input line 74.
+Package pdftex.def Info: cp-vlk.png used on input line 114.
 (pdftex.def)             Requested size: 361.34999pt x 102.17516pt.
 
-<cp-poj.png, id=80, 1329.96875pt x 337.26pt>
+<cp-poj.png, id=96, 1329.96875pt x 337.26pt>
 File: cp-poj.png Graphic file (type png)
  <use cp-poj.png>
-Package pdftex.def Info: cp-poj.png used on input line 75.
+Package pdftex.def Info: cp-poj.png used on input line 115.
 (pdftex.def)             Requested size: 361.34999pt x 91.63263pt.
 
-<cp-tr.png, id=81, 1462.46375pt x 561.09625pt>
+<cp-tr.png, id=97, 1462.46375pt x 561.09625pt>
 File: cp-tr.png Graphic file (type png)
  <use cp-tr.png>
-Package pdftex.def Info: cp-tr.png used on input line 76.
+Package pdftex.def Info: cp-tr.png used on input line 116.
 (pdftex.def)             Requested size: 361.34999pt x 138.63844pt.
 
-<cp-likv.png, id=82, 1339.0025pt x 659.46375pt>
+<cp-likv.png, id=98, 1339.0025pt x 659.46375pt>
 File: cp-likv.png Graphic file (type png)
  <use cp-likv.png>
-Package pdftex.def Info: cp-likv.png used on input line 77.
+Package pdftex.def Info: cp-likv.png used on input line 117.
 (pdftex.def)             Requested size: 361.34999pt x 177.96703pt.
 
-<cp-nakl.png, id=83, 1307.88625pt x 474.77374pt>
+<cp-nakl.png, id=99, 1307.88625pt x 474.77374pt>
 File: cp-nakl.png Graphic file (type png)
  <use cp-nakl.png>
-Package pdftex.def Info: cp-nakl.png used on input line 78.
+Package pdftex.def Info: cp-nakl.png used on input line 118.
 (pdftex.def)             Requested size: 361.34999pt x 131.16809pt.
 
 Underfull \vbox (badness 2790) has occurred while \output is active []
@@ -745,40 +772,45 @@ Underfull \vbox (badness 2790) has occurred while \output is active []
  [6
 
  <./cp-vlk.png (PNG copy)> <./cp-poj.png (PNG copy)> <./cp-tr.png (PNG copy)>]
-<al-vlk.png, id=89, 1274.7625pt x 328.22626pt>
+
+Package hyperref Warning: Composite letter `\textasciicaron+t'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 128.
+
+<al-vlk.png, id=105, 1274.7625pt x 328.22626pt>
 File: al-vlk.png Graphic file (type png)
  <use al-vlk.png>
-Package pdftex.def Info: al-vlk.png used on input line 89.
+Package pdftex.def Info: al-vlk.png used on input line 129.
 (pdftex.def)             Requested size: 361.34999pt x 93.03961pt.
 
-<al-poj1.png, id=90, 1267.73625pt x 273.02pt>
+<al-poj1.png, id=106, 1267.73625pt x 273.02pt>
 File: al-poj1.png Graphic file (type png)
  <use al-poj1.png>
-Package pdftex.def Info: al-poj1.png used on input line 90.
+Package pdftex.def Info: al-poj1.png used on input line 130.
 (pdftex.def)             Requested size: 361.34999pt x 77.81984pt.
 
-<al-poj2.png, id=91, 1262.7175pt x 231.86626pt>
+<al-poj2.png, id=107, 1262.7175pt x 231.86626pt>
 File: al-poj2.png Graphic file (type png)
  <use al-poj2.png>
-Package pdftex.def Info: al-poj2.png used on input line 91.
+Package pdftex.def Info: al-poj2.png used on input line 131.
 (pdftex.def)             Requested size: 361.34999pt x 66.35144pt.
 
-<al-tr.png, id=92, 1253.68375pt x 34.1275pt>
+<al-tr.png, id=108, 1253.68375pt x 34.1275pt>
 File: al-tr.png Graphic file (type png)
  <use al-tr.png>
-Package pdftex.def Info: al-tr.png used on input line 92.
+Package pdftex.def Info: al-tr.png used on input line 132.
 (pdftex.def)             Requested size: 361.34999pt x 9.8363pt.
 
-<al-nakl1.png, id=93, 1311.90125pt x 495.8525pt>
+<al-nakl1.png, id=109, 1311.90125pt x 495.8525pt>
 File: al-nakl1.png Graphic file (type png)
  <use al-nakl1.png>
-Package pdftex.def Info: al-nakl1.png used on input line 93.
+Package pdftex.def Info: al-nakl1.png used on input line 133.
 (pdftex.def)             Requested size: 361.34999pt x 136.57549pt.
 
-<al-nakl2.png, id=94, 1291.82625pt x 600.2425pt>
+<al-nakl2.png, id=110, 1291.82625pt x 600.2425pt>
 File: al-nakl2.png Graphic file (type png)
  <use al-nakl2.png>
-Package pdftex.def Info: al-nakl2.png used on input line 94.
+Package pdftex.def Info: al-nakl2.png used on input line 134.
 (pdftex.def)             Requested size: 361.34999pt x 167.89273pt.
  [7 <./cp-likv.png (PNG copy)> <./cp-nakl.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -788,35 +820,43 @@ py)> <./al-tr.png (PNG copy)> <./al-nakl1.png (PNG copy)>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 102.
+(hyperref)                removing `\textasciicaron' on input line 142.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
 [9 <./al-nakl2.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
+Underfull \hbox (badness 1014) in paragraph at lines 148--149
+[]\IL2/ppl/m/n/12 Ing. Fran-ti¹ek Øe-záè, Ph.D., Uèební ma-te-ri-ály k pøed-mìt
+u
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
+[10
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
  (./poj.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
 Package rerunfilecheck Info: File `poj.out' has not changed.
-(rerunfilecheck)             Checksum: 56934D857EFD3B634505717C928D4950;368.
+(rerunfilecheck)             Checksum: 2AC37EDB576C55E8DF5B14165883A3CF;626.
  ) 
 Here is how much of TeX's memory you used:
- 7198 strings out of 493629
- 99589 string characters out of 3148779
- 186086 words of memory out of 3000000
- 10292 multiletter control sequences out of 15000+200000
- 30446 words of font info for 61 fonts, out of 3000000 for 9000
+ 7239 strings out of 493629
+ 100151 string characters out of 3148779
+ 186245 words of memory out of 3000000
+ 10319 multiletter control sequences out of 15000+200000
+ 30703 words of font info for 62 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 44i,10n,31p,1142b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,10n,31p,1142b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fon
 ts/enc/dvips/base/8a.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on poj.pdf (10 pages, 813440 bytes).
+Output written on poj.pdf (11 pages, 821245 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

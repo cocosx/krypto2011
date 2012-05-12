@@ -1,8 +1,11 @@
 \select@language {czech}
 \contentsline {chapter}{\numberline {1}\bfseries \IeC {\'U}vod}{2}{chapter.1}
-\contentsline {chapter}{\numberline {2}\bfseries Solvency II}{3}{chapter.2}
-\contentsline {chapter}{\numberline {3}\bfseries Pom\IeC {\v e}rov\IeC {\'e} ukazatele}{4}{chapter.3}
-\contentsline {chapter}{\numberline {4}\bfseries P\IeC {\v r}\IeC {\'\i }klady}{6}{chapter.4}
-\contentsline {section}{\numberline {4.1}\slshape \IeC {\v C}esk\IeC {\'a} poji\IeC {\v s}\IeC {\v t}ovna}{6}{section.4.1}
-\contentsline {section}{\numberline {4.2}\slshape Allianz}{8}{section.4.2}
-\contentsline {section}{\numberline {4.3}\slshape Z\IeC {\'a}v\IeC {\v e}r}{9}{section.4.3}
+\contentsline {section}{\numberline {1.1}\slshape Solvency II}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}\rmfamily Kvantifikace}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}\rmfamily \IeC {\v R}\IeC {\'\i }zen\IeC {\'\i } rizika, management}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}\rmfamily Zve\IeC {\v r}ejn\IeC {\v e}n\IeC {\'\i } informac\IeC {\'\i }}{3}{subsection.1.1.3}
+\contentsline {chapter}{\numberline {2}\bfseries Pom\IeC {\v e}rov\IeC {\'e} ukazatele}{4}{chapter.2}
+\contentsline {chapter}{\numberline {3}\bfseries P\IeC {\v r}\IeC {\'\i }klady}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}\slshape \IeC {\v C}esk\IeC {\'a} poji\IeC {\v s}\IeC {\v t}ovna}{6}{section.3.1}
+\contentsline {section}{\numberline {3.2}\slshape Allianz poji\IeC {\v s}\IeC {\v t}ovna}{8}{section.3.2}
+\contentsline {section}{\numberline {3.3}\slshape Z\IeC {\'a}v\IeC {\v e}r}{9}{section.3.3}
